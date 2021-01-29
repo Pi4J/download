@@ -31,7 +31,6 @@ Thumbs.db
 *.jar
 *.war
 *.ear
-*.zip
 /nbactions.xml
 
 # PlatformIO specific IDE files
