@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: all
+Codename: stable
+Components: main
+Date: Fri, 29 Jan 2021 18:48:17 +0000
+Label: The Pi4J Project
+Origin: https://test.pi4j.com/download
+Suite: stable
+MD5Sum:
+ 2d4f5112d4d23864d5ca8adbc4cfa7c1              168 Release
+ e0f4ed69bdc840732abd7288893d8c09             2190 main/binary-all/Packages
+ e173e27621572e27de4e46488aed08cf              786 main/binary-all/Packages.gz
+ dc0254842fc57ca4a7c98660809f8013             1204 main/binary-all/Release
+SHA1:
+ f832abef0f8dd141d37bd58a52ab2b36c86a6752              168 Release
+ bb255b69a16fcda7c9b8907d434fd120e52f4d09             2190 main/binary-all/Packages
+ c31122bda46a32763bcbf3124c2a6bb72d4bc6e5              786 main/binary-all/Packages.gz
+ f9474bfe7fa8ae30782ba8a656f22779a2fa4488             1204 main/binary-all/Release
+SHA256:
+ 137d93aa4a918903d1e83c0344e7a17b3e6ab32b9bc30b17efb4c909c99dae7b              168 Release
+ d6ddb8d865ac8dc8061a569993c215946fd8262393fc2c145a12e0c017243d05             2190 main/binary-all/Packages
+ 92c08e7d9dc34c708e8c2590c6a5a95ddf90c7969b29aa809db796a5a4739395              786 main/binary-all/Packages.gz
+ 50373a681c4f4592c3a76c7a9c76c617ab64f7b3ee9a2d755a204d8194c7592d             1204 main/binary-all/Release
+SHA512:
+ 97c707ae4a551f3caeafb7559489ce776a47c2e0bd0866c2d0b5126fe259735c942ccc26e383c8a9cc5f77de9b12c4301bcc49b0f9be31257af947a314b6959f              168 Release
+ bea243c9c025f293b75b3713fecfbb6a1b601920e224e775f5e5f21dbf807a6ff4c8575f1999004d7206d314d517aa99b32ee2b75a682496997300dc6d235203             2190 main/binary-all/Packages
+ 082acaf7bdd25aee4f540af5bec6b28c773eadc97c8b1e6cfc72aafe082f34b3de8848cb77a52b437665327c6b0143f25df9a5bd3339d61ffd42d9d4c65565dc              786 main/binary-all/Packages.gz
+ 5208afb1c73604b361de14295ac7be19898b5db3ae41267892a19a3ae5c3f8ca9e7e9b53f4d26d7b0815dd2b9b6344646946dfd7ebbed0f786a4ce9ec2100760             1204 main/binary-all/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQFCBAEBCgAsFiEEIKegvFheN6p88UpzVzPPU0nq/+YFAmAUWHQOHHRlYW1AcGk0
+ai5jb20ACgkQVzPPU0nq/+Zbcwf+M75xZG38d2ENQXPVgB3Pr/Lr29dyfQhaMuMC
+zmqDud5WBRJWxLZeQ2+qxco7T2mm2sTHkvuy8jFA7fY+I5GS+wv+92CAG9DOeXTV
+JpIu3BhpI7IaJ/OElvVAORDE0u3bIGMXyfFTx9mjRYiTLl11ECrSmAWzQkB1Xh59
+4llhQ59MU9NVU2/1F5bk0cObzbkH/dC8muetLXMy38Nn5l86nK/nD0EVzxGftF1f
+nbWUpxYxlIpUPXVVPHw3AYHJkeskX7pFmwMRGxjLwAZjplp1F6TTn5txoqfQxtbC
+03JUeUyEVTKA+hfqduhzQaz1LlDj2o2aapjZmMtgBxDeJdFvfQ==
+=wDCq
+-----END PGP SIGNATURE-----

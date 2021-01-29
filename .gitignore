@@ -2,6 +2,8 @@
 out
 target
 gen
+tmp
+trash
 bin
 
 # IntelliJ files
@@ -42,3 +44,4 @@ Thumbs.db
 .vscode/.browse.c_cpp.db*
 .vscode/c_cpp_properties.json
 .vscode/launch.json
+/pi4j-private.pgp

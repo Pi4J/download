@@ -1,0 +1,27 @@
+Architectures: all
+Codename: testing
+Components: main
+Date: Fri, 29 Jan 2021 18:48:21 +0000
+Label: The Pi4J Project
+Origin: https://test.pi4j.com/download
+Suite: testing
+MD5Sum:
+ a79082990b6faeb984fa21b7ea12d113              170 Release
+ 0c424e972a405a27a3fb048a8d84817a             3188 main/binary-all/Packages
+ e57df99a0381ea35997ffd85974c9fb2             1004 main/binary-all/Packages.gz
+ 1fa873021d3efad2f394f823d0ab7451             1204 main/binary-all/Release
+SHA1:
+ 10207ff54a1dfecc2ac211b9302242ba52d71301              170 Release
+ abe74c1b097054e597ecbdbc16238220ad92a0b4             3188 main/binary-all/Packages
+ d3dedc07f3bfb2b7372befeed844e5bf0b531e7f             1004 main/binary-all/Packages.gz
+ 4217f83bd89e8b471e4f05965a30ff239fad0b24             1204 main/binary-all/Release
+SHA256:
+ 1a5d2324ca9bc7cfc3673bbe440bb57733563a143c186ae2993228a298325150              170 Release
+ 7f5f6f458dd5a6661c6de79f85c8e03e069817c9ae40e3995b2b8a507b01a238             3188 main/binary-all/Packages
+ e03448a591d18249f48433ba7b330c3767bf3a977addbc69620432547be2899d             1004 main/binary-all/Packages.gz
+ 1f28245ea7d1e93a3aebe62b1143a7d82b88d665fcb33dd26d66b18ebc354257             1204 main/binary-all/Release
+SHA512:
+ cea25341075e39ae9e77bb9ef3a52f0271ce3e961e299b055cda18527a989e211dc00d6fd8d86ab53a09a7d6e7de0b8498ebb31f597411b044c2088f1e4c082a              170 Release
+ b3997209b12d437bea787df95fec3f87b1f0c05232062e38118dd011f66beb055a27685b707d560a220c6633ee6ca914d9ccdafe27b92974d7fad11068fd690d             3188 main/binary-all/Packages
+ 24a9160fa75f3821da341322f648d3626ce82a958f9089672ce6b8cee2e3a1569109201800bc4fbb55d4cb7a174ee613ba5945460ec921b559e3f0298e2fd27a             1004 main/binary-all/Packages.gz
+ ad55b53c5775db303c38a6c9ceeed79ed29d13cac5ee683c8031c7820cdf06366318e47e7ceac85688fe4d14e9a1482a46feed9aaa62accedc719fb23faf350a             1204 main/binary-all/Release
