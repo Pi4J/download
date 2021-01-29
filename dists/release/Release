@@ -1,4 +1,8 @@
 Date: Thu, 28 Jan 2021 20:28:00 +0000
+Codename: release
+Architectures: armhf
+Components: main
+
 MD5Sum:
  1554ffabec9d864e54de3760add40892             2258 Packages
  6b48e218b4368fe959d52854c4e874f9              815 Packages.gz
