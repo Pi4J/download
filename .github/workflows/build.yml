@@ -21,7 +21,7 @@ jobs:
       - name: Get latest docker builder image
         run: docker pull pi4j/pi4j-builder-repo:latest
       - name: Extract PGP private key to file from GitHub secret
-        run: 
+        run: |
           mkdir ~/gnupg 
           'echo "$PGP_PRIVATE_KEY" > ~/gnupg/pi4j.key'
         env:
