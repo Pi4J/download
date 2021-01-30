@@ -22,9 +22,11 @@ jobs:
         run: docker pull pi4j/pi4j-builder-repo:latest
       - run: tree  
       - run: pwd
-      - name: Run build in Docker container
+      - name: Extract private key to file from GitHub secret
+        run: 'echo "$PGP_PRIVATE_KEY" > pi4j.key'
         env:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
-        run: docker run -e PGP_PRIVATE_KEY='${{ secrets.PGP_PRIVATE_KEY }}' --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest -c .build/build.sh
+      - name: Run build in Docker container        
+        run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest -c .build/build.sh
       - name: Display file tree
         run: tree
