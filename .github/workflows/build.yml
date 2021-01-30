@@ -26,8 +26,6 @@ jobs:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
       - name: Run build in Docker container        
         run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest -c .build/build.sh
-      - name: Display file tree
-        run: tree
       - name: Commit and push change to git repository
         run: |
           git config --global user.email "team@pi4j.com"
@@ -35,4 +33,5 @@ jobs:
           git status
           git add dists/.
           git commit -am "[AUTO] updated APT repo indices"
+          git push
           
