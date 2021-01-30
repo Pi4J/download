@@ -18,12 +18,12 @@ jobs:
     steps:
       - name: Checking out 'main' branch of git repository
         uses: actions/checkout@v2
-      - name: Get latest docker builder image
-        run: docker pull pi4j/pi4j-builder-repo:latest
       - name: Extract PGP private key to file from GitHub secret
         run: 'mkdir tmp && echo "$PGP_PRIVATE_KEY" > tmp/pi4j.key'
         env:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
+      - name: Get latest docker builder image
+        run: docker pull pi4j/pi4j-builder-repo:latest
       - name: Run build in docker builder container        
         run: docker run --rm --volume ${PWD}/tmp:/gnupg --volume $(PWD):/build pi4j/pi4j-builder-repo:latest .build/build.sh
       - name: Commit modified respository indices and push to git repository
