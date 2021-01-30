@@ -1,4 +1,7 @@
 #!/bin/bash
+set -xe
+
+env
 
 DISTRIBUTION=dists/v1
 
@@ -28,7 +31,6 @@ gzip -k -f ${DISTRIBUTION}/${COMPONENT}/binary-all/Packages
 
 # create Release files for the [V1] distribution [STABLE] component
 apt-ftparchive release ${DISTRIBUTION}/${COMPONENT}/binary-all > ${DISTRIBUTION}/${COMPONENT}/binary-all/Release
-
 
 #----------------------------------------
 # [V1] DISTRIBUTION [TESTING] COMPONENT
