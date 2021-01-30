@@ -13,19 +13,19 @@ on:
 
 # 
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
-    runs-on: pi4j/pi4j-builder-repo
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - name: Extract Private Key
-        env:
-          PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
-        run: |
-          "$PGP_PRIVATE_KEY" > pi4j.pgp
-          tree 
+    - uses: actions/checkout@v2
+    - name: Get latest Docker image
+      run: docker pull pi4j/pi4j-builder-repo:latest
+    - name: Extract Private Key
+      env:
+        PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
+    - name: Build in docker container
+      run: docker run -e PGP_PRIVATE_KEY='${{ secrets.PGP_PRIVATE_KEY }}' --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:2.0
+    - name: Extract Private Key
+      run: "$PGP_PRIVATE_KEY" > pi4j.pgp
+    - name: Display file tree
+      run: tree
 
