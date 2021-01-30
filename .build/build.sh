@@ -71,7 +71,7 @@ apt-ftparchive \
   release dists/v1 > dists/v1/Release
 
 # import PGP private key from file
-gpg --import pi4j-private.pgp
+gpg --import pi4j.key
 
 # sign Release files for the [V1] distribution
 gpg --default-key "team@pi4j.com" -abs -o - dists/v1/Release > dists/v1/Release.gpg

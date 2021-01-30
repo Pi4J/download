@@ -21,6 +21,9 @@ maven-eclipse.xml
 # Vim files
 *.swp
 
+# signature key files
+*.key
+
 # Mac files
 .DS_Store
 
