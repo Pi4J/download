@@ -25,7 +25,7 @@ jobs:
       - name: Get latest docker builder image
         run: docker pull pi4j/pi4j-builder-repo:latest
       - name: Run build in docker builder container        
-        run: docker run --rm --volume ${PWD}/tmp:/gnupg --volume $(PWD):/build pi4j/pi4j-builder-repo:latest .build/build.sh
+        run: docker run --rm --volume ${pwd}/tmp:/gnupg --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build.sh
       - name: Commit modified respository indices and push to git repository
         run: |
           git config --global user.email "team@pi4j.com"
