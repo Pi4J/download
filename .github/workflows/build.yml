@@ -23,6 +23,6 @@ jobs:
       - name: Run build in Docker container
         env:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
-        run: docker run -e PGP_PRIVATE_KEY='${{ secrets.PGP_PRIVATE_KEY }}' --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest bin/build.sh
+        run: docker exec -e PGP_PRIVATE_KEY='${{ secrets.PGP_PRIVATE_KEY }}' --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest /bin/bash -c bin/build.sh
       - name: Display file tree
         run: tree
