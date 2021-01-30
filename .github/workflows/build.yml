@@ -16,7 +16,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout git repo
       - uses: actions/checkout@v2
       - name: Get latest Docker image
         run: docker pull pi4j/pi4j-builder-repo:latest
