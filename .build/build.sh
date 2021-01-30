@@ -4,7 +4,7 @@ set -e
 DISTRIBUTION=dists/v1
 
 # clean and create working directories
-rm -R {dists,tmp}
+rm -R {dists,tmp} || true
 mkdir -p ${DISTRIBUTION}/{stable,testing}/binary-all
 mkdir -p tmp
 
@@ -38,7 +38,7 @@ apt-ftparchive release ${DISTRIBUTION}/${COMPONENT}/binary-all > ${DISTRIBUTION}
 COMPONENT=testing
 
 # clean temporary working directory
-rm -R tmp/*
+rm -R tmp/* || true
 
 # copy all Pi4J testing|snapshot distribution packages (.deb) to temporary working directory
 cp pi4j-[0.1]*\.[0-9]-SNAPSHOT.deb tmp
