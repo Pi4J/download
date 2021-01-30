@@ -2,36 +2,35 @@
 
 name: pi4j-update-apt-repo
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push events but only for the main branch when a Debian package file is added/modified/removed
   push:
     branches: [ main ]
+    paths:
+      - '**.deb'    
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checking 'main' branch of git repository
+      - name: Checking out 'main' branch of git repository
         uses: actions/checkout@v2
-      - name: Get latest Docker image
+      - name: Get latest docker builder image
         run: docker pull pi4j/pi4j-builder-repo:latest
-      - name: Extract private key to file from GitHub secret
+      - name: Extract PGP private key to file from GitHub secret
         run: 'echo "$PGP_PRIVATE_KEY" > pi4j.key'
         env:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
-      - name: Run build in Docker container        
+      - name: Run build in docker builder container        
         run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest -c .build/build.sh
-      - name: Commit and push change to git repository
+      - name: Commit modified respository indices and push to git repository
         run: |
           git config --global user.email "team@pi4j.com"
           git config --global user.name "Pi4J Build"
           git status
           git add dists/.
-          git commit -am "[AUTO] updated APT repo indices"
+          git commit -am "[AUTO] rebuild distribution respository indices"
           git push
-          
