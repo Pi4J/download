@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Get latest Docker image
         run: docker pull pi4j/pi4j-builder-repo:latest
+      - run: tree  
+      - run: pwd
       - name: Run build in Docker container
         env:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
