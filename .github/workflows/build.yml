@@ -30,6 +30,8 @@ jobs:
         run: tree
       - name: Commit and push change to git repository
         run: |
+          git config --global user.email "team@pi4j.com"
+          git config --global user.name "Pi4J Build"
           git status
           git add dists/.
           git commit -am "[AUTO] updated APT repo indices"
