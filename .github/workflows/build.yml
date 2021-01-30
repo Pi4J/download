@@ -24,8 +24,6 @@ jobs:
         PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
     - name: Build in docker container
       run: docker run -e PGP_PRIVATE_KEY='${{ secrets.PGP_PRIVATE_KEY }}' --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:2.0
-    - name: Extract Private Key
-      run: "$PGP_PRIVATE_KEY" > pi4j.pgp
     - name: Display file tree
       run: tree
 
