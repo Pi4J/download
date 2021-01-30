@@ -22,10 +22,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      env:
-        PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
-      run: |
-        "$PGP_PRIVATE_KEY" > pi4j.pgp
-        tree 
+      - name: Extract Private Key
+        env:
+          PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
+        run: |
+          "$PGP_PRIVATE_KEY" > pi4j.pgp
+          tree 
 
