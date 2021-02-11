@@ -1,3 +1,5 @@
+![pi4j-rebuild-repo](https://github.com/Pi4J/download/workflows/pi4j-rebuild-repo/badge.svg)
+
 # Pi4J Download Repository
 
 ---
