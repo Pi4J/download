@@ -77,12 +77,12 @@ Package: pi4j
 Version: 1.4~SNAPSHOT
 Architecture: all
 Maintainer: Pi4J Support <support@pi4j.com>
-Installed-Size: 799
+Installed-Size: 808
 Filename: pi4j-1.4-SNAPSHOT.deb
-Size: 575054
-MD5sum: b7a9185ae2a4ad8fa094ad65e028d1aa
-SHA1: 967b74806698232aecce6bf2ccea12026a02c882
-SHA256: 51fb7917733ab3203a25c15db653dc3b6edadb2207c808e3887cb433fd27c78b
+Size: 578782
+MD5sum: bf6147e807f1b912b43b8388312bc78c
+SHA1: e2dce800a44f8eb5b6019a184816deb7a43d7308
+SHA256: 10332fa2d7a44b344e341fda4d64e14ee870e3c18788900ac59d4e59d2fb0e24
 Section: misc
 Priority: optional
 Homepage: https://pi4j.com

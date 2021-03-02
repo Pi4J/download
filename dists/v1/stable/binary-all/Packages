@@ -73,3 +73,18 @@ Priority: optional
 Homepage: https://pi4j.com
 Description: Java library for IO access on the Raspberry Pi platform
 
+Package: pi4j
+Version: 1.4
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 808
+Filename: pi4j-1.4.deb
+Size: 578802
+MD5sum: 340b05f5c4b8a920a821a8a4b450eec5
+SHA1: cc28a5b2f514c791be2e2cea945ade09c0db0de2
+SHA256: 501a84801c6b5ca1788e0b19150a4ab44a6c66e07832f5d29aef3862a7edbe6d
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
