@@ -1,10 +1,16 @@
 #!/bin/bash
 set -e
 
-DISTRIBUTION=dists/v1
+CODENAME=v1
+DISTRIBUTION=dists/${CODENAME}
+
+# define the file filters used to determine all releases and snapshots for version 0.x and 1.x
+FILE_FILTER_PREFIX="pi4j-[0.1]*\.[0-9]"
+RELEASE_FILE_FILTER="${FILE_FILTER_PREFIX}.deb"
+TESTING_FILE_FILTER="${FILE_FILTER_PREFIX}-SNAPSHOT.deb"
 
 # clean and create working directories
-rm -R {dists,tmp} || true
+rm -R {${DISTRIBUTION},tmp} || true
 mkdir -p ${DISTRIBUTION}/{stable,testing}/binary-all
 mkdir -p tmp
 
@@ -15,8 +21,16 @@ mkdir -p tmp
 # define constant for [STABLE] component
 COMPONENT=stable
 
+echo "------------------------------------"
+echo "BUILDING Pi4J APT REPOSITORY FOR:   "
+echo "   > ${DISTRIBUTION}/${COMPONENT}"
+echo "------------------------------------"
+echo "THE FOLLOWING FILES WILL BE INCLUDED:"
+ls ${RELEASE_FILE_FILTER} || true
+echo "------------------------------------"
+
 # copy all Pi4J V1.x release|stable distribution packages (.deb) to temporary working directory
-cp pi4j-[0.1]*\.[0-9].deb tmp
+cp ${RELEASE_FILE_FILTER} tmp || true
 
 # create 'Package' file for the [V1] distribution [STABLE] component
 dpkg-scanpackages --multiversion --extra-override .build/pi4j.override tmp > ${DISTRIBUTION}/${COMPONENT}/binary-all/Packages
@@ -40,8 +54,16 @@ COMPONENT=testing
 # clean temporary working directory
 rm -R tmp/* || true
 
+echo "------------------------------------"
+echo "BUILDING Pi4J APT REPOSITORY FOR:   "
+echo "   > ${DISTRIBUTION}/${COMPONENT}"
+echo "------------------------------------"
+echo "THE FOLLOWING FILES WILL BE INCLUDED:"
+ls ${TESTING_FILE_FILTER} || true
+echo "------------------------------------"
+
 # copy all Pi4J testing|snapshot distribution packages (.deb) to temporary working directory
-cp pi4j-[0.1]*\.[0-9]-SNAPSHOT.deb tmp
+cp ${TESTING_FILE_FILTER} tmp || true
 
 # create 'Package' file for the [V1] distribution [TESTING] component
 dpkg-scanpackages --multiversion --extra-override .build/pi4j.override tmp > ${DISTRIBUTION}/${COMPONENT}/binary-all/Packages
@@ -62,20 +84,20 @@ apt-ftparchive release ${DISTRIBUTION}/${COMPONENT}/binary-all > ${DISTRIBUTION}
 
 # create Release files for the [V1] distribution
 apt-ftparchive \
-  -o APT::FTPArchive::Release::Origin="https://test.pi4j.com/download" \
+  -o APT::FTPArchive::Release::Origin="https://pi4j.com/download" \
   -o APT::FTPArchive::Release::Label="The Pi4J Project" \
-  -o APT::FTPArchive::Release::Suite="v1" \
-  -o APT::FTPArchive::Release::Codename="v1" \
+  -o APT::FTPArchive::Release::Suite="${CODENAME}" \
+  -o APT::FTPArchive::Release::Codename="${CODENAME}" \
   -o APT::FTPArchive::Release::Architectures="all" \
   -o APT::FTPArchive::Release::Components="stable testing" \
-  release dists/v1 > dists/v1/Release
+  release ${DISTRIBUTION} > ${DISTRIBUTION}/Release
 
 # import PGP private key from file
 gpg --import pi4j.key
 
 # sign Release files for the [V1] distribution
-gpg --default-key "team@pi4j.com" -abs -o - dists/v1/Release > dists/v1/Release.gpg
-gpg --default-key "team@pi4j.com" --clearsign -o - dists/v1/Release > dists/v1/InRelease
+gpg --default-key "team@pi4j.com" -abs -o - ${DISTRIBUTION}/Release > ${DISTRIBUTION}/Release.gpg
+gpg --default-key "team@pi4j.com" --clearsign -o - ${DISTRIBUTION}/Release > ${DISTRIBUTION}/InRelease
 
 # clean and remove temporary working directory
 rm -R tmp
