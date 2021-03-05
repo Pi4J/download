@@ -24,8 +24,10 @@ jobs:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
       - name: Get latest docker builder image
         run: docker pull pi4j/pi4j-builder-repo:latest
-      - name: Run build in docker builder container        
-        run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build.sh
+      - name: Run [V1] build in docker builder container
+        run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build-v1.sh
+      - name: Run [V2] build in docker builder container
+        run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build-v2.sh
       - name: Commit modified respository indices and push to git repository
         run: |
           git config --global user.email "team@pi4j.com"
