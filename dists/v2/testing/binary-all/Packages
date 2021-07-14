@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Pi4J Support <support@pi4j.com>
 Installed-Size: 5230
 Filename: pi4j-2.0-SNAPSHOT.deb
-Size: 4956616
-MD5sum: ce73b97cfe9e492a565ee05d8daa8cb9
-SHA1: 9bbc47b042d9fd2f16d3570e8d22cf521e04f788
-SHA256: 5b29a88491ea085eb69602e7f424f6a0ad609cfd3b4c9d493448a7d96c61b35b
+Size: 4958894
+MD5sum: 3c4e8c51f3015148aa7a3b59fd931025
+SHA1: e67383996edcf373c3776e745c9e6eeb4769b3de
+SHA256: a26e69cd4d92b63400f4733ec0d01229835bb319b06889e5f426b0e7964e17e4
 Section: misc
 Priority: optional
 Homepage: https://pi4j.com
