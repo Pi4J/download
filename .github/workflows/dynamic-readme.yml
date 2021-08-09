@@ -1,0 +1,55 @@
+name: pi4j-dynamic-readme
+
+on:
+  push:
+    branches:
+      - main
+      - feat/dynamic-readme
+    paths:
+      - '**.zip'
+      - 'README.md.gtpl'
+      - '.github/workflows/dynamic-readme.yml'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate JSON file listing of download repository
+        run: >-
+          echo "PI4J_DOWNLOAD_DATA=$(
+              jq \
+              --null-input \
+              --compact-output \
+              --rawfile files <(find . -maxdepth 1 -type f -printf "%f|%s\0" | sort -zr) \
+              '
+                  ($files | split("\u0000") | map(select(.!=""))) as $files
+                  | ($files | map(split("|") | {name: .[0], size: .[1]|tonumber})) as $files
+                  | ($files | map(select(.name | test("\\.zip$")))) as $archives
+                  | {
+                      snapshot_archives: $archives | map(select(.name | contains("SNAPSHOT"))),
+                      release_archives: $archives | map(select(.name | contains("SNAPSHOT") | not)),
+                  }
+              '
+          )" >> $GITHUB_ENV
+
+      - name: Render dynamic README using gomplate
+        uses: docker://hairyhenderson/gomplate:slim
+        with:
+          args: >-
+            --context "pi4j_download=env:/PI4J_DOWNLOAD_DATA?type=application/json"
+            --context "pi4j_os=https://pi4j-download.com/list.php?type=application/json"
+            --file "/github/workspace/README.md.gtpl"
+            --out "/github/workspace/README.md"
+
+      - name: Commit modified README and push to repository
+        run: |
+          git config --global user.email "team@pi4j.com"
+          git config --global user.name "Pi4J Build"
+          git status
+          git add README.md
+          git commit -am "[AUTO] rebuild dynamic readme"
+          git push
