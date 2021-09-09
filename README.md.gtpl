@@ -40,7 +40,7 @@
     <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>SHA256 Checksum: <code>{{ $file.checksum }}</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>{{ $file.checksum }}</code></i></td>
 </tr>
 {{- end }}
 {{- end -}}
@@ -59,7 +59,8 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Latest Downloads
 - **Latest Release:** {{ template "pi4j-download-single" (index .pi4j_download.release_archives 0) }}
 - **Latest Snapshot:** {{ template "pi4j-download-single" (index .pi4j_download.snapshot_archives 0) }}
-- **Latest OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.images 0) }}
+- **Latest CrowPi OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.crowpi 0) }}
+- **Latest Picade OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.picade 0) }}
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
@@ -144,8 +145,11 @@ sudo apt install pi4j
 ---
 
 ## Operating System Images
-Use these pre-built operating system images of the Pi4J project to kickstart your own 100% pure Java applications for specific Raspberry Pi setups. Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn more.
+Use these pre-built operating system images of the Pi4J project to kickstart your own 100% pure Java applications for specific Raspberry Pi setups.
+Please note that the given SHA256 checksums refer to the image file contained within the ZIP archive and not the ZIP archive itself.
+Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn more.
 
+### CrowPi
 <table>
 <thead>
     <tr>
@@ -155,7 +159,21 @@ Use these pre-built operating system images of the Pi4J project to kickstart you
     </tr>
 </thead>
 <tbody>
-    {{- template "pi4j-os-list" .pi4j_os.images }}
+    {{- template "pi4j-os-list" .pi4j_os.flavors.crowpi }}
+</tbody>
+</table>
+
+### Picade
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+    {{- template "pi4j-os-list" .pi4j_os.flavors.picade }}
 </tbody>
 </table>
 
