@@ -1,3 +1,5 @@
+# Update the dynamic README in the repository root
+
 name: pi4j-dynamic-readme
 
 on:
@@ -39,8 +41,8 @@ jobs:
 
       - name: Commit modified README and push to repository
         run: |
-          git config --global user.email "team@pi4j.com"
-          git config --global user.name "Pi4J Build"
+          git config --global user.email "bot@pi4j.com"
+          git config --global user.name "Pi4J Bot"
           git status
           git add README.md
           git commit -am "[AUTO] rebuild dynamic readme"
