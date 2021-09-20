@@ -30,8 +30,8 @@ jobs:
         run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build-v2.sh
       - name: Commit modified respository indices and push to git repository
         run: |
-          git config --global user.email "team@pi4j.com"
-          git config --global user.name "Pi4J Build"
+          git config --global user.email "bot@pi4j.com"
+          git config --global user.name "Pi4J Bot"
           git status
           git add dists/.
           git commit -am "[AUTO] rebuild distribution respository indices"

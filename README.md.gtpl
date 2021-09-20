@@ -1,3 +1,50 @@
+{{- define "file-size" -}}
+{{- if gt . 1073741824 -}}
+{{- printf "%.2f GiB" (math.Div . 1073741824) -}}
+{{- else if gt . 1048576 -}}
+{{- printf "%.2f MiB" (math.Div . 1048576) -}}
+{{- else if gt . 1024 -}}
+{{- printf "%.2f KiB" (math.Div . 1024) -}}
+{{- else -}}
+{{- printf "%d B" . }}
+{{- end -}}
+{{- end -}}
+
+{{- define "pi4j-download-single" -}}
+{{- $baseURL := "https://github.com/Pi4J/download/raw/main/" }}
+{{- $fileURL := printf "%s%s" $baseURL .name -}}
+[{{ .name }} ({{ template "file-size" .size }})]({{ $fileURL }})
+{{- end -}}
+
+{{- define "pi4j-download-list" -}}
+{{- $baseURL := "https://github.com/Pi4J/download/raw/main/" }}
+{{- range $index, $file := . }}
+{{- $fileURL := printf "%s%s" $baseURL $file.name }}
+| {{ $file.name }} | {{ template "file-size" $file.size }} | [{{ $fileURL }}]({{ $fileURL }}) |
+{{- end }}
+{{- end -}}
+
+{{- define "pi4j-os-single" -}}
+{{- $baseURL := "https://pi4j-download.com/" }}
+{{- $fileURL := printf "%s%s" $baseURL .name -}}
+[{{ .name }} ({{ template "file-size" .size }})]({{ $fileURL }})
+{{- end -}}
+
+{{- define "pi4j-os-list" -}}
+{{- $baseURL := "https://pi4j-download.com/" }}
+{{- range $index, $file := . }}
+{{- $fileURL := printf "%s%s" $baseURL $file.name }}
+<tr>
+    <td>{{ $file.name }}</td>
+    <td>{{ template "file-size" $file.size }}</td>
+    <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
+</tr>
+<tr>
+    <td colspan="3"><i>Image SHA256: <code>{{ $file.checksum }}</code></i></td>
+</tr>
+{{- end }}
+{{- end -}}
+
 # Pi4J Download Repository
 
 ![CI Status: pi4j-rebuild-repo](https://github.com/Pi4J/download/workflows/pi4j-rebuild-repo/badge.svg)
@@ -10,10 +57,10 @@ The download files are located on [github.com/Pi4J/download](https://github.com/
 For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j.com/).
 
 ## Latest Downloads
-- **Latest Release:** [pi4j-2.0.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip)
-- **Latest Snapshot:** [pi4j-2.1.0-SNAPSHOT.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip)
-- **Latest CrowPi OS Image:** [crowpi-main.img.zip (1.87 GiB)](https://pi4j-download.com/crowpi-main.img.zip)
-- **Latest Picade OS Image:** [picade-main.img.zip (1.87 GiB)](https://pi4j-download.com/picade-main.img.zip)
+- **Latest Release:** {{ template "pi4j-download-single" (index .pi4j_download.release_archives 0) }}
+- **Latest Snapshot:** {{ template "pi4j-download-single" (index .pi4j_download.snapshot_archives 0) }}
+- **Latest CrowPi OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.crowpi 0) }}
+- **Latest Picade OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.picade 0) }}
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
@@ -26,27 +73,14 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Release Archives
 | Name | Size | Download URL |
 | ---- | ---- | ------------ |
-| pi4j-2.0.zip | 2.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip](https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip) |
-| pi4j-1.4.zip | 3.31 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip) |
-| pi4j-1.3.zip | 6.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip) |
-| pi4j-1.2.zip | 6.20 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip) |
-| pi4j-1.1.zip | 5.61 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip) |
-| pi4j-1.0.zip | 3.63 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip) |
-| pi4j-0.0.5.zip | 2.48 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip](https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip) |
+{{- template "pi4j-download-list" .pi4j_download.release_archives }}
 
 ---
 
 ## Snapshot Archives
 | Name | Size | Download URL |
 | ---- | ---- | ------------ |
-| pi4j-2.1.0-SNAPSHOT.zip | 2.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip) |
-| pi4j-2.0-SNAPSHOT.zip | 2.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip) |
-| pi4j-1.4-SNAPSHOT.zip | 3.31 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip) |
-| pi4j-1.3-SNAPSHOT.zip | 6.38 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip) |
-| pi4j-1.2-SNAPSHOT.zip | 6.25 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip) |
-| pi4j-1.1-SNAPSHOT.zip | 5.62 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip) |
-| pi4j-1.0.1-SNAPSHOT.zip | 3.65 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip) |
-| pi4j-1.0-SNAPSHOT.zip | 3.61 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip) |
+{{- template "pi4j-download-list" .pi4j_download.snapshot_archives }}
 
 ---
 
@@ -125,14 +159,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     </tr>
 </thead>
 <tbody>
-<tr>
-    <td>crowpi-main.img.zip</td>
-    <td>1.87 GiB</td>
-    <td><a href="https://pi4j-download.com/crowpi-main.img.zip">https://pi4j-download.com/crowpi-main.img.zip</a></td>
-</tr>
-<tr>
-    <td colspan="3"><i>Image SHA256: <code>8212db9704dc95ce603a1ed07b9cac5a5e0ae9fdf2dc2ed0224e875c19fbf77a</code></i></td>
-</tr>
+    {{- template "pi4j-os-list" .pi4j_os.flavors.crowpi }}
 </tbody>
 </table>
 
@@ -146,14 +173,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     </tr>
 </thead>
 <tbody>
-<tr>
-    <td>picade-main.img.zip</td>
-    <td>1.87 GiB</td>
-    <td><a href="https://pi4j-download.com/picade-main.img.zip">https://pi4j-download.com/picade-main.img.zip</a></td>
-</tr>
-<tr>
-    <td colspan="3"><i>Image SHA256: <code>7ae039f69c50078e68fd8fe8171b9071f9dde871cde0bc4ab4580308ec2c465e</code></i></td>
-</tr>
+    {{- template "pi4j-os-list" .pi4j_os.flavors.picade }}
 </tbody>
 </table>
 
