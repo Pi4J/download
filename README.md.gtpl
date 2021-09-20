@@ -20,7 +20,11 @@
 {{- $baseURL := "https://github.com/Pi4J/download/raw/main/" }}
 {{- range $index, $file := . }}
 {{- $fileURL := printf "%s%s" $baseURL $file.name }}
-| {{ $file.name }} | {{ template "file-size" $file.size }} | [{{ $fileURL }}]({{ $fileURL }}) |
+<tr>
+    <td>{{ $file.name }}</td>
+    <td>{{ template "file-size" $file.size }}</td>
+    <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
+</tr>
 {{- end }}
 {{- end -}}
 
@@ -71,16 +75,34 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ---
 
 ## Release Archives
-| Name | Size | Download URL |
-| ---- | ---- | ------------ |
-{{- template "pi4j-download-list" .pi4j_download.release_archives }}
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+    {{- template "pi4j-download-list" .pi4j_download.release_archives }}
+</tbody>
+</table>
 
 ---
 
 ## Snapshot Archives
-| Name | Size | Download URL |
-| ---- | ---- | ------------ |
-{{- template "pi4j-download-list" .pi4j_download.snapshot_archives }}
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+    {{- template "pi4j-download-list" .pi4j_download.snapshot_archives }}
+</tbody>
+</table>
 
 ---
 
