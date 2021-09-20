@@ -119,48 +119,40 @@ Should you decide against running our installer script, you can also use these c
 <details>
 <summary><b>Pi4J Version 2 (stable)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v2 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 2 (testing)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v2 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 1 (stable)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v1 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 1 (testing)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v1 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
