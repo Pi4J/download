@@ -24,29 +24,107 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ---
 
 ## Release Archives
-| Name | Size | Download URL |
-| ---- | ---- | ------------ |
-| pi4j-2.0.zip | 2.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip](https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip) |
-| pi4j-1.4.zip | 3.31 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip) |
-| pi4j-1.3.zip | 6.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip) |
-| pi4j-1.2.zip | 6.20 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip) |
-| pi4j-1.1.zip | 5.61 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip) |
-| pi4j-1.0.zip | 3.63 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip) |
-| pi4j-0.0.5.zip | 2.48 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip](https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip) |
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>pi4j-2.0.zip</td>
+    <td>2.37 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.4.zip</td>
+    <td>3.31 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.3.zip</td>
+    <td>6.37 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.2.zip</td>
+    <td>6.20 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.1.zip</td>
+    <td>5.61 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.0.zip</td>
+    <td>3.63 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-0.0.5.zip</td>
+    <td>2.48 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip">https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip</a></td>
+</tr>
+</tbody>
+</table>
 
 ---
 
 ## Snapshot Archives
-| Name | Size | Download URL |
-| ---- | ---- | ------------ |
-| pi4j-2.1.0-SNAPSHOT.zip | 2.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip) |
-| pi4j-2.0-SNAPSHOT.zip | 2.37 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip) |
-| pi4j-1.4-SNAPSHOT.zip | 3.31 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip) |
-| pi4j-1.3-SNAPSHOT.zip | 6.38 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip) |
-| pi4j-1.2-SNAPSHOT.zip | 6.25 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip) |
-| pi4j-1.1-SNAPSHOT.zip | 5.62 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip) |
-| pi4j-1.0.1-SNAPSHOT.zip | 3.65 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip) |
-| pi4j-1.0-SNAPSHOT.zip | 3.61 MiB | [https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip](https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip) |
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>pi4j-2.1.0-SNAPSHOT.zip</td>
+    <td>2.37 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-2.0-SNAPSHOT.zip</td>
+    <td>2.37 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.4-SNAPSHOT.zip</td>
+    <td>3.31 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.3-SNAPSHOT.zip</td>
+    <td>6.38 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.2-SNAPSHOT.zip</td>
+    <td>6.25 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.1-SNAPSHOT.zip</td>
+    <td>5.62 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.0.1-SNAPSHOT.zip</td>
+    <td>3.65 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip</a></td>
+</tr>
+<tr>
+    <td>pi4j-1.0-SNAPSHOT.zip</td>
+    <td>3.61 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip</a></td>
+</tr>
+</tbody>
+</table>
 
 ---
 
@@ -63,48 +141,40 @@ Should you decide against running our installer script, you can also use these c
 <details>
 <summary><b>Pi4J Version 2 (stable)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v2 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 2 (testing)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v2 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 1 (stable)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v1 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 1 (testing)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v1 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
@@ -131,7 +201,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td><a href="https://pi4j-download.com/crowpi-main.img.zip">https://pi4j-download.com/crowpi-main.img.zip</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>8212db9704dc95ce603a1ed07b9cac5a5e0ae9fdf2dc2ed0224e875c19fbf77a</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>280a04ae956157d17c397b4b24fb57fb0a7efedf6cdc3b3da168db8cf84ef1d1</code></i></td>
 </tr>
 </tbody>
 </table>
@@ -152,7 +222,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td><a href="https://pi4j-download.com/picade-main.img.zip">https://pi4j-download.com/picade-main.img.zip</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>7ae039f69c50078e68fd8fe8171b9071f9dde871cde0bc4ab4580308ec2c465e</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>17b444a78528e127511470e5881a191e80a0211cdc54c0b4a0809293881eeb11</code></i></td>
 </tr>
 </tbody>
 </table>
