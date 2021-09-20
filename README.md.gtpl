@@ -20,7 +20,11 @@
 {{- $baseURL := "https://github.com/Pi4J/download/raw/main/" }}
 {{- range $index, $file := . }}
 {{- $fileURL := printf "%s%s" $baseURL $file.name }}
-| {{ $file.name }} | {{ template "file-size" $file.size }} | [{{ $fileURL }}]({{ $fileURL }}) |
+<tr>
+    <td>{{ $file.name }}</td>
+    <td>{{ template "file-size" $file.size }}</td>
+    <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
+</tr>
 {{- end }}
 {{- end -}}
 
@@ -71,16 +75,34 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ---
 
 ## Release Archives
-| Name | Size | Download URL |
-| ---- | ---- | ------------ |
-{{- template "pi4j-download-list" .pi4j_download.release_archives }}
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+    {{- template "pi4j-download-list" .pi4j_download.release_archives }}
+</tbody>
+</table>
 
 ---
 
 ## Snapshot Archives
-| Name | Size | Download URL |
-| ---- | ---- | ------------ |
-{{- template "pi4j-download-list" .pi4j_download.snapshot_archives }}
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+    </tr>
+</thead>
+<tbody>
+    {{- template "pi4j-download-list" .pi4j_download.snapshot_archives }}
+</tbody>
+</table>
 
 ---
 
@@ -97,48 +119,40 @@ Should you decide against running our installer script, you can also use these c
 <details>
 <summary><b>Pi4J Version 2 (stable)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v2 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 2 (testing)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v2 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 1 (stable)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v1 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
 <details>
 <summary><b>Pi4J Version 1 (testing)</b></summary>
 
-```shell
-wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
 echo 'deb [arch=all] https://pi4j.com/download v1 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
-sudo apt install pi4j
-```
+sudo apt install pi4j</code></pre>
 
 </details>
 
