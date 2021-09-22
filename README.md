@@ -201,7 +201,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td><a href="https://pi4j-download.com/crowpi-main.img.zip">https://pi4j-download.com/crowpi-main.img.zip</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>46fe519f8d45b4f667fad8debb73c19a09726d54f1548f138d5548ba21b918a7</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>4e65d86f3728b05e2b9676e5792748a39ff69f6b92705947c17f5c1e3a400f1e</code></i></td>
 </tr>
 </tbody>
 </table>
@@ -222,7 +222,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td><a href="https://pi4j-download.com/picade-main.img.zip">https://pi4j-download.com/picade-main.img.zip</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>d5d428a4179b4e5d0c9f10a1570bb2652e2c8213a063c5194544f812396a5700</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>9d6c3be69a86216fb652445ccb8912cae0c114edf6863da339474debd17a8f5a</code></i></td>
 </tr>
 </tbody>
 </table>
