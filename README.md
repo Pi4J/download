@@ -11,7 +11,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.0.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip)
-- **Latest Snapshot:** [pi4j-2.1.0-SNAPSHOT.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip)
+- **Latest Snapshot:** [pi4j-2.2.0-SNAPSHOT.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip)
 - **Latest CrowPi OS Image:** [crowpi-main.img.zip (1.87 GiB)](https://pi4j-download.com/crowpi-main.img.zip)
 - **Latest Picade OS Image:** [picade-main.img.zip (1.87 GiB)](https://pi4j-download.com/picade-main.img.zip)
 
@@ -83,6 +83,11 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     </tr>
 </thead>
 <tbody>
+<tr>
+    <td>pi4j-2.2.0-SNAPSHOT.zip</td>
+    <td>2.37 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip</a></td>
+</tr>
 <tr>
     <td>pi4j-2.1.0-SNAPSHOT.zip</td>
     <td>2.37 MiB</td>
