@@ -18,10 +18,10 @@ jobs:
               jq \
               --null-input \
               --compact-output \
-              --rawfile files <(find . -maxdepth 1 -type f -printf "%f|%s\0" | sort -zr) \
+              --rawfile files <(find . -maxdepth 1 -type f -printf "%f|%s|%TY-%Tm-%Td %TH:%TM\0" | sort -zr) \
               '
                   ($files | split("\u0000") | map(select(.!=""))) as $files
-                  | ($files | map(split("|") | {name: .[0], size: .[1]|tonumber})) as $files
+                  | ($files | map(split("|") | {name: .[0], size: .[1]|tonumber}, date: .[2])) as $files
                   | ($files | map(select(.name | test("\\.zip$")))) as $archives
                   | {
                       snapshot_archives: $archives | map(select(.name | contains("SNAPSHOT"))),

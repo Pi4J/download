@@ -24,6 +24,7 @@
     <td>{{ $file.name }}</td>
     <td>{{ template "file-size" $file.size }}</td>
     <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
+    <td>{{ $file.date }}</td>
 </tr>
 {{- end }}
 {{- end -}}
@@ -42,9 +43,10 @@
     <td>{{ $file.name }}</td>
     <td>{{ template "file-size" $file.size }}</td>
     <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
+    <td>{{ $file.date }}</td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>{{ $file.checksum }}</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>{{ $file.checksum }}</code></i></td>
 </tr>
 {{- end }}
 {{- end -}}
@@ -81,6 +83,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
         <th>Name</th>
         <th>Size</th>
         <th>Download URL</th>
+        <th>Date</th>
     </tr>
 </thead>
 <tbody>
@@ -97,6 +100,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
         <th>Name</th>
         <th>Size</th>
         <th>Download URL</th>
+        <th>Date</th>
     </tr>
 </thead>
 <tbody>
@@ -170,6 +174,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
         <th>Name</th>
         <th>Size</th>
         <th>Download URL</th>
+        <th>Date</th>
     </tr>
 </thead>
 <tbody>
@@ -184,6 +189,7 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
         <th>Name</th>
         <th>Size</th>
         <th>Download URL</th>
+        <th>Date</th>
     </tr>
 </thead>
 <tbody>
