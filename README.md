@@ -12,8 +12,8 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.0.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip)
 - **Latest Snapshot:** [pi4j-2.2.0-SNAPSHOT.zip (2.37 MiB)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip)
-- **Latest CrowPi OS Image:** [crowpi-main.img.zip (1.87 GiB)](https://pi4j-download.com/crowpi-main.img.zip)
-- **Latest Picade OS Image:** [picade-main.img.zip (1.87 GiB)](https://pi4j-download.com/picade-main.img.zip)
+- **Latest CrowPi OS Image:** [crowpi-010.img.zip (2.02 GiB)](https://pi4j-download.com/crowpi-010.img.zip)
+- **Latest Picade OS Image:** [picade-010.img.zip (2.02 GiB)](https://pi4j-download.com/picade-010.img.zip)
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
@@ -201,12 +201,20 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </thead>
 <tbody>
 <tr>
+    <td>crowpi-010.img.zip</td>
+    <td>2.02 GiB</td>
+    <td><a href="https://pi4j-download.com/crowpi-010.img.zip">https://pi4j-download.com/crowpi-010.img.zip</a></td>
+</tr>
+<tr>
+    <td colspan="3"><i>Image SHA256: <code>1daa165a45b14663b2847924c808c3ac5003c27da2703f7085c17a482cae529f</code></i></td>
+</tr>
+<tr>
     <td>crowpi-main.img.zip</td>
-    <td>1.87 GiB</td>
+    <td>1.94 GiB</td>
     <td><a href="https://pi4j-download.com/crowpi-main.img.zip">https://pi4j-download.com/crowpi-main.img.zip</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>4e65d86f3728b05e2b9676e5792748a39ff69f6b92705947c17f5c1e3a400f1e</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>4841214b1aa5fa4e3c21a454573f4086be4cda5244e85112d3fbbb4a0b6761ea</code></i></td>
 </tr>
 </tbody>
 </table>
@@ -222,12 +230,20 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </thead>
 <tbody>
 <tr>
+    <td>picade-010.img.zip</td>
+    <td>2.02 GiB</td>
+    <td><a href="https://pi4j-download.com/picade-010.img.zip">https://pi4j-download.com/picade-010.img.zip</a></td>
+</tr>
+<tr>
+    <td colspan="3"><i>Image SHA256: <code>64b6d67b34d6e0d567181762748c1953a4b5c7b40ac21ec67fd2431caaec279a</code></i></td>
+</tr>
+<tr>
     <td>picade-main.img.zip</td>
-    <td>1.87 GiB</td>
+    <td>1.94 GiB</td>
     <td><a href="https://pi4j-download.com/picade-main.img.zip">https://pi4j-download.com/picade-main.img.zip</a></td>
 </tr>
 <tr>
-    <td colspan="3"><i>Image SHA256: <code>9d6c3be69a86216fb652445ccb8912cae0c114edf6863da339474debd17a8f5a</code></i></td>
+    <td colspan="3"><i>Image SHA256: <code>c03562c7a6dae3ec4f77f61202e49924ddf79180dc14c31aa4968573bf7da07e</code></i></td>
 </tr>
 </tbody>
 </table>
