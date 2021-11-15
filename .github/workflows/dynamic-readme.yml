@@ -30,6 +30,9 @@ jobs:
               '
           )" >> $GITHUB_ENV
 
+      - name: Check generated JSON
+        run: echo $GITHUB_ENV
+
       - name: Render dynamic README using gomplate
         uses: docker://hairyhenderson/gomplate:slim
         with:
