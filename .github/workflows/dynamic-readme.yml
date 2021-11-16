@@ -58,5 +58,5 @@ jobs:
           git config --global user.name "Pi4J Bot"
           git status
           git add README.md
-          git commit -am "[AUTO] rebuild dynamic readme"
+          git commit -am "[AUTO] rebuild dynamic readme" || true
           git push
