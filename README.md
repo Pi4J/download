@@ -38,43 +38,43 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     <td>pi4j-2.0.zip</td>
     <td>2.37 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.0.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-07-14 13:12</td>
 </tr>
 <tr>
     <td>pi4j-1.4.zip</td>
     <td>3.31 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.4.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-03-02 16:39</td>
 </tr>
 <tr>
     <td>pi4j-1.3.zip</td>
     <td>6.37 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.3.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-1.2.zip</td>
     <td>6.20 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.2.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-1.1.zip</td>
     <td>5.61 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.1.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-1.0.zip</td>
     <td>3.63 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.0.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-0.0.5.zip</td>
     <td>2.48 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip">https://github.com/Pi4J/download/raw/main/pi4j-0.0.5.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 </tbody>
 </table>
@@ -96,55 +96,55 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     <td>pi4j-2.2.0-SNAPSHOT.zip</td>
     <td>2.37 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-11-15 10:03</td>
 </tr>
 <tr>
     <td>pi4j-2.1.0-SNAPSHOT.zip</td>
     <td>2.37 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.1.0-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-10-26 12:07</td>
 </tr>
 <tr>
     <td>pi4j-2.0-SNAPSHOT.zip</td>
     <td>2.37 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.0-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-09-04 07:48</td>
 </tr>
 <tr>
     <td>pi4j-1.4-SNAPSHOT.zip</td>
     <td>3.31 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.4-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-03-02 16:39</td>
 </tr>
 <tr>
     <td>pi4j-1.3-SNAPSHOT.zip</td>
     <td>6.38 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.3-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-1.2-SNAPSHOT.zip</td>
     <td>6.25 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.2-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-1.1-SNAPSHOT.zip</td>
     <td>5.62 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.1-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 <tr>
     <td>pi4j-1.0.1-SNAPSHOT.zip</td>
     <td>3.65 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.0.1-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-30 05:27</td>
 </tr>
 <tr>
     <td>pi4j-1.0-SNAPSHOT.zip</td>
     <td>3.61 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-1.0-SNAPSHOT.zip</a></td>
-    <td>2021-11-16 20:00</td>
+    <td>2021-01-29 19:36</td>
 </tr>
 </tbody>
 </table>
