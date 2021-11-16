@@ -12,13 +12,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Adjust file modification times based on Git commits
+        run: >-
+          git ls-tree -r --name-only HEAD | while read file; do
+            unix_ts="$(git log -1 --format="%at" -- "${file}")"
+            touch_ts=$(date -d "@${unix_ts}" +"%Y%m%d%H%M.%S")
+            touch -t "${touch_ts}" "${file}"
+          done
+
       - name: Generate JSON file listing of download repository
         run: >-
           echo "PI4J_DOWNLOAD_DATA=$(
               jq \
               --null-input \
               --compact-output \
-              --rawfile files <(find . -maxdepth 1 -type f -printf "%f|%s|%TY-%Tm-%Td %TH:%TM\0" | sort -zr) \
+              --rawfile files <(TZ=UTC find . -maxdepth 1 -type f -printf "%f|%s|%TY-%Tm-%Td %TH:%TM\0" | sort -zr) \
               '
                   ($files | split("\u0000") | map(select(.!=""))) as $files
                   | ($files | map(split("|") | {name: .[0], size: .[1]|tonumber, date: .[2]})) as $files
