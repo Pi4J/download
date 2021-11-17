@@ -21,10 +21,10 @@
 {{- range $index, $file := . }}
 {{- $fileURL := printf "%s%s" $baseURL $file.name }}
 <tr>
-    <td>{{ $file.name }}</td>
-    <td>{{ template "file-size" $file.size }}</td>
+    <td nowrap>{{ $file.name }}</td>
+    <td nowrap>{{ template "file-size" $file.size }}</td>
     <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
-    <td>{{ $file.date }}</td>
+    <td nowrap>{{ $file.date }}</td>
 </tr>
 {{- end }}
 {{- end -}}
