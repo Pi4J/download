@@ -47,3 +47,6 @@ Thumbs.db
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 /pi4j-private.pgp
+
+# Dynamic README Output
+drm-*.json
