@@ -32,7 +32,7 @@
 {{- define "pi4j-os-single" -}}
 {{- $baseURL := "https://pi4j-download.com/" }}
 {{- $fileURL := printf "%s%s" $baseURL .name -}}
-[{{ .name }} ({{ template "file-size" .size }})]({{ $fileURL }})
+[{{ .name }} ({{ template "file-size" .size }}, {{ .date }})]({{ $fileURL }})
 {{- end -}}
 
 {{- define "pi4j-os-list" -}}
