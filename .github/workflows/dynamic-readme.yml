@@ -24,31 +24,41 @@ jobs:
 
       - name: Generate JSON file listing of download repository
         run: >-
-          echo "PI4J_DOWNLOAD_DATA=$(
-              jq \
-              --null-input \
-              --compact-output \
-              --rawfile files <(TZ=UTC find . -maxdepth 1 -type f -printf "%f|%s|%TY-%Tm-%Td %TH:%TM\0" | sort -zr) \
-              '
-                  ($files | split("\u0000") | map(select(.!=""))) as $files
-                  | ($files | map(split("|") | {name: .[0], size: .[1]|tonumber, date: .[2]})) as $files
-                  | ($files | map(select(.name | test("\\.zip$")))) as $archives
-                  | {
-                      snapshot_archives: $archives | map(select(.name | contains("SNAPSHOT"))),
-                      release_archives: $archives | map(select(.name | contains("SNAPSHOT") | not)),
-                  }
-              '
-          )" >> $GITHUB_ENV
+          jq
+          --null-input
+          --compact-output
+          --rawfile files <(TZ=UTC find . -maxdepth 1 -type f -printf "%f|%s|%TY-%Tm-%Td %TH:%TM\0" | sort -zr)
+          '
+              ($files | split("\u0000") | map(select(.!=""))) as $files
+              | ($files | map(split("|") | {name: .[0], size: .[1]|tonumber, date: .[2]})) as $files
+              | ($files | map(select(.name | test("\\.zip$")))) as $archives
+              | {
+                  snapshot_archives: $archives | map(select(.name | contains("SNAPSHOT"))),
+                  release_archives: $archives | map(select(.name | contains("SNAPSHOT") | not)),
+              }
+          ' >> /tmp/drm-pi4j-download.json
 
-      - name: Check generated JSON
-        run: echo $GITHUB_ENV
+      - name: Fetch JSON file listing of OS images mirror
+        run: >-
+          curl
+          --silent --show-error --fail --fail
+          --connect-timeout 10 --max-time 15 --retry 3 --retry-delay 0
+          --output /tmp/drm-pi4j-os.json
+          https://pi4j-download.com/versions.php?type=application/json
+
+      - name: Output collected JSON files
+        run: >-
+          jq
+          -s '{"pi4j-download": .[0], "pi4j-os": .[1]}'
+          /tmp/drm-pi4j-download.json
+          /tmp/drm-pi4j-os.json
 
       - name: Render dynamic README using gomplate
         uses: docker://hairyhenderson/gomplate:slim
         with:
           args: >-
-            --context "pi4j_download=env:/PI4J_DOWNLOAD_DATA?type=application/json"
-            --context "pi4j_os=https://pi4j-download.com/versions.php?type=application/json"
+            --context "pi4j_download=file:///tmp/drm-pi4j-download.json"
+            --context "pi4j_os=file:///tmp/drm-pi4j-os.json"
             --file "/github/workspace/README.md.gtpl"
             --out "/github/workspace/README.md"
 
