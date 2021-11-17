@@ -13,7 +13,7 @@
 {{- define "pi4j-download-single" -}}
 {{- $baseURL := "https://github.com/Pi4J/download/raw/main/" }}
 {{- $fileURL := printf "%s%s" $baseURL .name -}}
-[{{ .name }} ({{ template "file-size" .size .date }})]({{ $fileURL }})
+[{{ .name }} ({{ template "file-size" .size }} | {{ .date }})]({{ $fileURL }})
 {{- end -}}
 
 {{- define "pi4j-download-list" -}}
@@ -32,7 +32,7 @@
 {{- define "pi4j-os-single" -}}
 {{- $baseURL := "https://pi4j-download.com/" }}
 {{- $fileURL := printf "%s%s" $baseURL .name -}}
-[{{ .name }} ({{ template "file-size" .size }}, {{ .date }})]({{ $fileURL }})
+[{{ .name }} ({{ template "file-size" .size }} | {{ .date }})]({{ $fileURL }})
 {{- end -}}
 
 {{- define "pi4j-os-list" -}}
