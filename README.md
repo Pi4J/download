@@ -11,7 +11,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.1.0.zip (2.37 MiB, 2021-11-17 19:44)](https://github.com/Pi4J/download/raw/main/pi4j-2.1.0.zip)
-- **Latest Snapshot:** [pi4j-2.2.0-SNAPSHOT.zip (2.37 MiB, 2021-11-29 09:34)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip)
+- **Latest Snapshot:** [pi4j-2.2.0-SNAPSHOT.zip (2.38 MiB, 2021-12-09 11:39)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip)
 - **Latest CrowPi OS Image:** [crowpi-0.1.0.img.zip (2.02 GiB, 2021-11-15 12:50)](https://pi4j-download.com/crowpi-0.1.0.img.zip)
 - **Latest Picade OS Image:** [picade-0.1.0.img.zip (2.02 GiB, 2021-11-15 12:51)](https://pi4j-download.com/picade-0.1.0.img.zip)
 
@@ -100,9 +100,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 <tbody>
 <tr>
     <td nowrap>pi4j-2.2.0-SNAPSHOT.zip</td>
-    <td nowrap>2.37 MiB</td>
+    <td nowrap>2.38 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.2.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2021-11-29 09:34</td>
+    <td nowrap>2021-12-09 11:39</td>
 </tr>
 <tr>
     <td nowrap>pi4j-2.1.0-SNAPSHOT.zip</td>
