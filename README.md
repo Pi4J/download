@@ -161,6 +161,26 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 </tbody>
 </table>
 
+To use a snapshot version of the library in your Maven project, add the following repositories-settings to your `pom.xml`.
+
+```xml
+<repositories>
+    <repository>
+        <id>oss-snapshots-repo</id>
+        <name>Sonatype OSS Maven Repository</name>
+        <url>https://oss.sonatype.org/content/groups/public</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+```
+
+The list of available releases and snapshots can also be found on [sonatype.org](https://oss.sonatype.org/#nexus-search;quick~pi4j-core).
+
 ---
 
 ## APT/PPA Repository
