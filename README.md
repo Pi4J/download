@@ -262,12 +262,12 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </tr>
 <tr>
     <td>crowpi-main.img.zip</td>
-    <td>1.86 GiB</td>
+    <td>2.15 GiB</td>
     <td><a href="https://pi4j-download.com/crowpi-main.img.zip">https://pi4j-download.com/crowpi-main.img.zip</a></td>
-    <td>2022-02-08 10:34</td>
+    <td>2022-08-09 09:36</td>
 </tr>
 <tr>
-    <td colspan="4"><i>Image SHA256: <code>df37d39af7d25a255a8404de967925e0ab43608433b7f730d28dc5c3666fbbb2</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>0928c525c0fdefbc42e651d024b0d6da392814402651c55161d98085b28d3359</code></i></td>
 </tr>
 </tbody>
 </table>
@@ -294,12 +294,12 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </tr>
 <tr>
     <td>picade-main.img.zip</td>
-    <td>1.86 GiB</td>
+    <td>2.16 GiB</td>
     <td><a href="https://pi4j-download.com/picade-main.img.zip">https://pi4j-download.com/picade-main.img.zip</a></td>
-    <td>2022-02-08 10:31</td>
+    <td>2022-08-09 09:30</td>
 </tr>
 <tr>
-    <td colspan="4"><i>Image SHA256: <code>275793f62510fd101c3b859862d557ea9b9b92ab232fbe167307ea787233990e</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>1fc1d453b328ad8b9e4aa6e29e8681bc9faa1c547b4a2256f3dd1cb5eb394083</code></i></td>
 </tr>
 </tbody>
 </table>
