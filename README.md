@@ -12,8 +12,8 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.2.0.zip (2.47 MiB, 2022-08-29 08:51)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.0.zip)
 - **Latest Snapshot:** [pi4j-2.2.1-SNAPSHOT.zip (2.47 MiB, 2022-09-26 08:37)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.1-SNAPSHOT.zip)
-- **Latest CrowPi OS Image:** [crowpi-0.1.0.img.zip (2.02 GiB, 2021-11-15 12:50)](https://pi4j-download.com/crowpi-0.1.0.img.zip)
-- **Latest Picade OS Image:** [picade-0.1.0.img.zip (2.02 GiB, 2021-11-15 12:51)](https://pi4j-download.com/picade-0.1.0.img.zip)
+- **Latest CrowPi OS Image:** [crowpi-0.2.0.img.zip (2.19 GiB, 2022-10-06 09:49)](https://pi4j-download.com/crowpi-0.2.0.img.zip)
+- **Latest Picade OS Image:** [picade-0.2.0.img.zip (2.20 GiB, 2022-10-06 10:00)](https://pi4j-download.com/picade-0.2.0.img.zip)
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
