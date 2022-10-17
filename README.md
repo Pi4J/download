@@ -10,7 +10,7 @@ The download files are located on [github.com/Pi4J/download](https://github.com/
 For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j.com/).
 
 ## Latest Downloads
-- **Latest Release:** [pi4j-2.2.0.zip (2.47 MiB, 2022-08-29 08:51)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.0.zip)
+- **Latest Release:** [pi4j-2.2.1.zip (2.47 MiB, 2022-10-17 07:49)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.1.zip)
 - **Latest Snapshot:** [pi4j-2.2.1-SNAPSHOT.zip (2.47 MiB, 2022-10-17 07:24)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.1-SNAPSHOT.zip)
 - **Latest CrowPi OS Image:** [crowpi-0.2.0.img.zip (2.19 GiB, 2022-10-06 09:49)](https://pi4j-download.com/crowpi-0.2.0.img.zip)
 - **Latest Picade OS Image:** [picade-0.2.0.img.zip (2.20 GiB, 2022-10-06 10:00)](https://pi4j-download.com/picade-0.2.0.img.zip)
@@ -34,6 +34,12 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     </tr>
 </thead>
 <tbody>
+<tr>
+    <td nowrap>pi4j-2.2.1.zip</td>
+    <td nowrap>2.47 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.2.1.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.2.1.zip</a></td>
+    <td nowrap>2022-10-17 07:49</td>
+</tr>
 <tr>
     <td nowrap>pi4j-2.2.0.zip</td>
     <td nowrap>2.47 MiB</td>
