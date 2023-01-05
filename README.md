@@ -11,9 +11,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.2.1.zip (2.47 MiB, 2022-10-17 07:49)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.1.zip)
-- **Latest Snapshot:** [pi4j-2.2.2-SNAPSHOT.zip (2.48 MiB, 2022-11-28 10:49)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.2-SNAPSHOT.zip)
-- **Latest CrowPi OS Image:** [crowpi-0.2.0.img.zip (2.19 GiB, 2022-10-06 09:49)](https://pi4j-download.com/crowpi-0.2.0.img.zip)
-- **Latest Picade OS Image:** [picade-0.2.0.img.zip (2.20 GiB, 2022-10-06 10:00)](https://pi4j-download.com/picade-0.2.0.img.zip)
+- **Latest Snapshot:** [pi4j-2.2.2-SNAPSHOT.zip (2.47 MiB, 2023-01-05 07:47)](https://github.com/Pi4J/download/raw/main/pi4j-2.2.2-SNAPSHOT.zip)
+- **Latest CrowPi OS Image:** [crowpi-0.1.0.img.zip (2.02 GiB, 2021-11-15 12:50)](https://pi4j-download.com/crowpi-0.1.0.img.zip)
+- **Latest Picade OS Image:** [picade-0.1.0.img.zip (2.02 GiB, 2021-11-15 12:51)](https://pi4j-download.com/picade-0.1.0.img.zip)
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
@@ -118,9 +118,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 <tbody>
 <tr>
     <td nowrap>pi4j-2.2.2-SNAPSHOT.zip</td>
-    <td nowrap>2.48 MiB</td>
+    <td nowrap>2.47 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.2.2-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.2.2-SNAPSHOT.zip</a></td>
-    <td nowrap>2022-11-28 10:49</td>
+    <td nowrap>2023-01-05 07:47</td>
 </tr>
 <tr>
     <td nowrap>pi4j-2.2.1-SNAPSHOT.zip</td>
@@ -276,15 +276,6 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </thead>
 <tbody>
 <tr>
-    <td>crowpi-0.1.0.img.zip</td>
-    <td>2.02 GiB</td>
-    <td><a href="https://pi4j-download.com/crowpi-0.1.0.img.zip">https://pi4j-download.com/crowpi-0.1.0.img.zip</a></td>
-    <td>2021-11-15 12:50</td>
-</tr>
-<tr>
-    <td colspan="4"><i>Image SHA256: <code>1daa165a45b14663b2847924c808c3ac5003c27da2703f7085c17a482cae529f</code></i></td>
-</tr>
-<tr>
     <td>crowpi-0.2.0.img.zip</td>
     <td>2.19 GiB</td>
     <td><a href="https://pi4j-download.com/crowpi-0.2.0.img.zip">https://pi4j-download.com/crowpi-0.2.0.img.zip</a></td>
@@ -292,6 +283,15 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </tr>
 <tr>
     <td colspan="4"><i>Image SHA256: <code>46c60682fc8f2f5c376d6386c60320c3f8db679c85671bc4f0607b65eac0fd86</code></i></td>
+</tr>
+<tr>
+    <td>crowpi-0.1.0.img.zip</td>
+    <td>2.02 GiB</td>
+    <td><a href="https://pi4j-download.com/crowpi-0.1.0.img.zip">https://pi4j-download.com/crowpi-0.1.0.img.zip</a></td>
+    <td>2021-11-15 12:50</td>
+</tr>
+<tr>
+    <td colspan="4"><i>Image SHA256: <code>1daa165a45b14663b2847924c808c3ac5003c27da2703f7085c17a482cae529f</code></i></td>
 </tr>
 <tr>
     <td>crowpi-main.img.zip</td>
@@ -317,15 +317,6 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </thead>
 <tbody>
 <tr>
-    <td>picade-0.1.0.img.zip</td>
-    <td>2.02 GiB</td>
-    <td><a href="https://pi4j-download.com/picade-0.1.0.img.zip">https://pi4j-download.com/picade-0.1.0.img.zip</a></td>
-    <td>2021-11-15 12:51</td>
-</tr>
-<tr>
-    <td colspan="4"><i>Image SHA256: <code>64b6d67b34d6e0d567181762748c1953a4b5c7b40ac21ec67fd2431caaec279a</code></i></td>
-</tr>
-<tr>
     <td>picade-0.2.0.img.zip</td>
     <td>2.20 GiB</td>
     <td><a href="https://pi4j-download.com/picade-0.2.0.img.zip">https://pi4j-download.com/picade-0.2.0.img.zip</a></td>
@@ -333,6 +324,15 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </tr>
 <tr>
     <td colspan="4"><i>Image SHA256: <code>d9fab7aca9415e9e7ba0864b599ca8e8e4effee03a3dd0fcc514a75c250189b8</code></i></td>
+</tr>
+<tr>
+    <td>picade-0.1.0.img.zip</td>
+    <td>2.02 GiB</td>
+    <td><a href="https://pi4j-download.com/picade-0.1.0.img.zip">https://pi4j-download.com/picade-0.1.0.img.zip</a></td>
+    <td>2021-11-15 12:51</td>
+</tr>
+<tr>
+    <td colspan="4"><i>Image SHA256: <code>64b6d67b34d6e0d567181762748c1953a4b5c7b40ac21ec67fd2431caaec279a</code></i></td>
 </tr>
 <tr>
     <td>picade-main.img.zip</td>
