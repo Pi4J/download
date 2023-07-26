@@ -291,10 +291,10 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td>Pi4J-CrowPi-OS-0.3.0.img.zip</td>
     <td>1.88 GiB</td>
     <td><a href="https://pi4j-download.com/Pi4J-CrowPi-OS-0.3.0.img.zip">https://pi4j-download.com/Pi4J-CrowPi-OS-0.3.0.img.zip</a></td>
-    <td>2023-07-26 12:04</td>
+    <td>2023-07-26 16:11</td>
 </tr>
 <tr>
-    <td colspan="4"><i>Image SHA256: <code>51ecb1d6372857bd7ec377f4e4d5903271bc61543298ac4f9edd6d741b202669</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>3af961ff5c6bf1766c94dca55b80f82ce869e4839dc21e407c719ab85ac96e67</code></i></td>
 </tr>
 <tr>
     <td>Pi4J-CrowPi-OS-main.img.zip</td>
@@ -323,10 +323,10 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td>Pi4J-Picade-OS-0.3.0.img.zip</td>
     <td>1.89 GiB</td>
     <td><a href="https://pi4j-download.com/Pi4J-Picade-OS-0.3.0.img.zip">https://pi4j-download.com/Pi4J-Picade-OS-0.3.0.img.zip</a></td>
-    <td>2023-07-26 12:05</td>
+    <td>2023-07-26 16:23</td>
 </tr>
 <tr>
-    <td colspan="4"><i>Image SHA256: <code>95cef03b142c4e7cd0f47b45d9bdcb0e6f29a6fef44552aef55e05274f4961a7</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>de90bb7af075c92dbd521859b296bab87bdc542122e378a80866bf523911f3bb</code></i></td>
 </tr>
 <tr>
     <td>Pi4J-Picade-OS-main.img.zip</td>
