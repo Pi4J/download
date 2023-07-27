@@ -65,14 +65,15 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Latest Downloads
 - **Latest Release:** {{ template "pi4j-download-single" (index .pi4j_download.release_archives 0) }}
 - **Latest Snapshot:** {{ template "pi4j-download-single" (index .pi4j_download.snapshot_archives 0) }}
-- **Latest CrowPi OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.crowpi 1) }}
-- **Latest Picade OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.picade 1) }}
+- **Latest Pi4J-Basic-OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.basic 1) }}
+- **Latest Pi4J-CrowPi-OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.crowpi 1) }}
+- **Latest Pi4J-Picade-OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.picade 1) }}
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
 - **[Snapshot Archives](#snapshot-archives)**: experimental Pi4J builds, might cause breakage
 - **[APT/PPA Repository](#aptppa-repository)**: install Pi4J via APT/PPA system package manager
-- **[Operating System Images](#operating-system-images)**: install custom OS images based on Raspbian to kickstart your Pi4J project
+- **[Operating System Images](#operating-system-images)**: install custom OS images based on [Raspberry Pi OS](https://www.raspberrypi.com/software/) to kickstart your Pi4J project
 
 ---
 
