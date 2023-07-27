@@ -276,6 +276,38 @@ Use these pre-built operating system images of the Pi4J project to kickstart you
 Please note that the given SHA256 checksums refer to the image file contained within the ZIP archive and not the ZIP archive itself.
 Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn more.
 
+### Basic
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+        <th>Date</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>Pi4J-Basic-OS-0.3.0.img.zip</td>
+    <td>1.88 GiB</td>
+    <td><a href="https://pi4j-download.com/Pi4J-Basic-OS-0.3.0.img.zip">https://pi4j-download.com/Pi4J-Basic-OS-0.3.0.img.zip</a></td>
+    <td>2023-07-27 09:09</td>
+</tr>
+<tr>
+    <td colspan="4"><i>Image SHA256: <code>f0725542fe8b0045bda4e5ffa60a59ef2339c0c2169275f8ae666f8fc7221e00</code></i></td>
+</tr>
+<tr>
+    <td>Pi4J-Basic-OS-main.img.zip</td>
+    <td>1.88 GiB</td>
+    <td><a href="https://pi4j-download.com/Pi4J-Basic-OS-main.img.zip">https://pi4j-download.com/Pi4J-Basic-OS-main.img.zip</a></td>
+    <td>2023-07-26 11:14</td>
+</tr>
+<tr>
+    <td colspan="4"><i>Image SHA256: <code>29850fe073c160f2bd688b8b4bf5c49831ada9d1cb15b67f99f36a0951451f82</code></i></td>
+</tr>
+</tbody>
+</table>
+
 ### CrowPi
 <table>
 <thead>
@@ -291,10 +323,10 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td>Pi4J-CrowPi-OS-0.3.0.img.zip</td>
     <td>1.88 GiB</td>
     <td><a href="https://pi4j-download.com/Pi4J-CrowPi-OS-0.3.0.img.zip">https://pi4j-download.com/Pi4J-CrowPi-OS-0.3.0.img.zip</a></td>
-    <td>2023-07-26 16:11</td>
+    <td>2023-07-27 09:08</td>
 </tr>
 <tr>
-    <td colspan="4"><i>Image SHA256: <code>3af961ff5c6bf1766c94dca55b80f82ce869e4839dc21e407c719ab85ac96e67</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>2f0258a37aac34f4601f5443485da026cd7d5fe9d07ff64cd3dbee5aa97ecf2a</code></i></td>
 </tr>
 <tr>
     <td>Pi4J-CrowPi-OS-main.img.zip</td>
@@ -323,10 +355,10 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
     <td>Pi4J-Picade-OS-0.3.0.img.zip</td>
     <td>1.89 GiB</td>
     <td><a href="https://pi4j-download.com/Pi4J-Picade-OS-0.3.0.img.zip">https://pi4j-download.com/Pi4J-Picade-OS-0.3.0.img.zip</a></td>
-    <td>2023-07-26 16:23</td>
+    <td>2023-07-27 09:11</td>
 </tr>
 <tr>
-    <td colspan="4"><i>Image SHA256: <code>de90bb7af075c92dbd521859b296bab87bdc542122e378a80866bf523911f3bb</code></i></td>
+    <td colspan="4"><i>Image SHA256: <code>99e95a3f1a355e2911fbcce3c1756475e9c1b202c293134993df57d73e0dbc7a</code></i></td>
 </tr>
 <tr>
     <td>Pi4J-Picade-OS-main.img.zip</td>
@@ -339,5 +371,6 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </tr>
 </tbody>
 </table>
+
 
 Thanks to our sponsor [Karakun](https://karakun.com/) for hosting these images!
