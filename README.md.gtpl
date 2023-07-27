@@ -187,6 +187,21 @@ Use these pre-built operating system images of the Pi4J project to kickstart you
 Please note that the given SHA256 checksums refer to the image file contained within the ZIP archive and not the ZIP archive itself.
 Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn more.
 
+### Basic
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Download URL</th>
+        <th>Date</th>
+    </tr>
+</thead>
+<tbody>
+    {{- template "pi4j-os-list" .pi4j_os.flavors.basic }}
+</tbody>
+</table>
+
 ### CrowPi
 <table>
 <thead>
@@ -217,19 +232,5 @@ Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn
 </tbody>
 </table>
 
-### Basic
-<table>
-<thead>
-    <tr>
-        <th>Name</th>
-        <th>Size</th>
-        <th>Download URL</th>
-        <th>Date</th>
-    </tr>
-</thead>
-<tbody>
-    {{- template "pi4j-os-list" .pi4j_os.flavors.basic }}
-</tbody>
-</table>
 
 Thanks to our sponsor [Karakun](https://karakun.com/) for hosting these images!
