@@ -11,7 +11,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.5.1.zip (2.28 MiB, 2024-03-21 08:51)](https://github.com/Pi4J/download/raw/main/pi4j-2.5.1.zip)
-- **Latest Snapshot:** [pi4j-2.5.1-SNAPSHOT.zip (2.52 MiB, 2024-04-15 15:16)](https://github.com/Pi4J/download/raw/main/pi4j-2.5.1-SNAPSHOT.zip)
+- **Latest Snapshot:** [pi4j-2.5.1-SNAPSHOT.zip (2.53 MiB, 2024-04-16 05:35)](https://github.com/Pi4J/download/raw/main/pi4j-2.5.1-SNAPSHOT.zip)
 - **Latest Pi4J-Basic-OS Image:** [Pi4J-Basic-OS-main.img.zip (1.88 GiB, 2023-07-31 11:45)](https://pi4j-download.com/Pi4J-Basic-OS-main.img.zip)
 - **Latest Pi4J-CrowPi-OS Image:** [Pi4J-CrowPi-OS-main.img.zip (1.88 GiB, 2023-07-31 11:41)](https://pi4j-download.com/Pi4J-CrowPi-OS-main.img.zip)
 - **Latest Pi4J-Picade-OS Image:** [Pi4J-Picade-OS-main.img.zip (1.89 GiB, 2023-07-31 11:44)](https://pi4j-download.com/Pi4J-Picade-OS-main.img.zip)
@@ -143,9 +143,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 <tbody>
 <tr>
     <td nowrap>pi4j-2.5.1-SNAPSHOT.zip</td>
-    <td nowrap>2.52 MiB</td>
+    <td nowrap>2.53 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.5.1-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.5.1-SNAPSHOT.zip</a></td>
-    <td nowrap>2024-04-15 15:16</td>
+    <td nowrap>2024-04-16 05:35</td>
 </tr>
 <tr>
     <td nowrap>pi4j-2.5.0-SNAPSHOT.zip</td>
