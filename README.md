@@ -163,7 +163,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     <td nowrap>pi4j-2.6.1-SNAPSHOT.zip</td>
     <td nowrap>2.55 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.6.1-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.6.1-SNAPSHOT.zip</a></td>
-    <td nowrap>2024-08-27 08:18</td>
+    <td nowrap>2024-08-27 09:07</td>
 </tr>
 <tr>
     <td nowrap>pi4j-2.6.0-SNAPSHOT.zip</td>
