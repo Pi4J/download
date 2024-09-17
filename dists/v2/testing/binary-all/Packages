@@ -1,0 +1,165 @@
+Package: pi4j
+Version: 2.1.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5228
+Filename: pi4j-2.1.0-SNAPSHOT.deb
+Size: 4963858
+MD5sum: 40d0e49a4891d71ce756dea35f185875
+SHA1: a339aac36354d261f702b3d3beebdc57657101c2
+SHA256: 4311f75bc66efcbf825031ed8c67f132ac93afd79d4d6c9a22261abf075f2057
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.2.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5604
+Filename: pi4j-2.2.0-SNAPSHOT.deb
+Size: 5177300
+MD5sum: 88633eb7b0ba8b1f6c0442724b6080b3
+SHA1: 649647a6d2fd06298c114a5cc1ddddb285479ca6
+SHA256: 6dc029b4581261ff4b77c727a62bb38cbaf94c6a5e45b42e017c709b6493c480
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.2.1~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5609
+Filename: pi4j-2.2.1-SNAPSHOT.deb
+Size: 5180558
+MD5sum: 204b199f795c822013e0fd8edc6e7f14
+SHA1: 6502516c1707766722b8ea86f239c1ec9b79f021
+SHA256: 6902b53132c0412823b488c7755dc8b6979bbf7be852fd936cb27bfb85fd532d
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.2.2~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5625
+Filename: pi4j-2.2.2-SNAPSHOT.deb
+Size: 5189310
+MD5sum: c535ac9df29156548d403a6c3bc498cf
+SHA1: f9c9fcdce440a9f764eeb8bc1782653411f7fd2b
+SHA256: 988030fb90815243063e846e2e2c4e869eea43fe1bbd0b3dba800832b6227d93
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.3.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5701
+Filename: pi4j-2.3.0-SNAPSHOT.deb
+Size: 5269854
+MD5sum: 7e90f8451dc103c5420eaff411d5f3c0
+SHA1: 1e3e1373da1bb9e204c865b379933e131e4106dc
+SHA256: f0f98a844d4d9a42f8cee8c9d4c8f69390134e343680c17a8cacb21df5f45194
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.4.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5710
+Filename: pi4j-2.4.0-SNAPSHOT.deb
+Size: 5275392
+MD5sum: a2f673ed8dff61b503eb108b8b1bba80
+SHA1: e296d277ca188a5da9256078c7b8699ef75c4e08
+SHA256: 4a46f66d1edb3a4d58bb10ca10b61f24c4b51906a935278323c9c715069b671f
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.5.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 5838
+Filename: pi4j-2.5.0-SNAPSHOT.deb
+Size: 4924790
+MD5sum: 737947021cd820e9d0e0cf0844b1d465
+SHA1: 14b96e6d94081e1724a25701f74350c561c08cc9
+SHA256: eb3785bd18bb58ea950f71101ce2fc7220fac90d831bded40dc7db20ac1af877
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.5.1~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 6207
+Filename: pi4j-2.5.1-SNAPSHOT.deb
+Size: 5273330
+MD5sum: bb754902231acd6500cf3fbf33bf314d
+SHA1: b36c68ef9e541b67b9c67f04b580489bafc9e7f9
+SHA256: fdaa39ca464210723d75581312f990e00b343d57bced62b8d8aa8edbad938bd7
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.6.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 6254
+Filename: pi4j-2.6.0-SNAPSHOT.deb
+Size: 5318034
+MD5sum: 6603ff82455e2a99fbbef59cb6cde31b
+SHA1: 0aa9eb653305e52285399176835e3762bf1cc671
+SHA256: fc00dafa370e4f0d1617fdb2cb71f89737e3b6270fa91f820c6554774e995a26
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.6.1~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 6248
+Filename: pi4j-2.6.1-SNAPSHOT.deb
+Size: 5302324
+MD5sum: b51685f09f8548e9c915f5f8a6a45f71
+SHA1: 160f684b3293bebd8d2070d97e820599c6c120cd
+SHA256: 78f5f401c15b2c6d435f60f1c96d058e1b485c0a4ddda775f88724ddc30b7ae3
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
+Package: pi4j
+Version: 2.7.0~SNAPSHOT
+Architecture: all
+Maintainer: Pi4J Support <support@pi4j.com>
+Installed-Size: 6253
+Filename: pi4j-2.7.0-SNAPSHOT.deb
+Size: 5316590
+MD5sum: 2e5584f52f4e3c4f849ee8d2c468abda
+SHA1: 1b87502c6fb73c61c72991090ad99d22b5bbf578
+SHA256: ed1a2fb878dee5ca6739a337f78430e4e973861d41dc1ab9efbffa8663a8c3b7
+Section: misc
+Priority: optional
+Homepage: https://pi4j.com
+Description: Java library for IO access on the Raspberry Pi platform
+
