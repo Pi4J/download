@@ -28,13 +28,13 @@ jobs:
         run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build-v1.sh
       - name: Run [V2] build in docker builder container
         run: docker run --rm --volume $(pwd):/build pi4j/pi4j-builder-repo:latest .build/build-v2.sh
-      - name: Commit modified respository indices and push to git repository
+      - name: Commit modified repository indices and push to git repository
         run: |
           git config --global user.email "bot@pi4j.com"
           git config --global user.name "Pi4J Bot"
           git status
           git add dists/.
-          git commit -am "[AUTO] rebuild distribution respository indices"
+          git commit -am "[AUTO] rebuild distribution repository indices"
           git push
       - name: Trigger dynamic README update of Pi4J/download
         env:
