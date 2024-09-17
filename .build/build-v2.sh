@@ -5,7 +5,7 @@ CODENAME=v2
 DISTRIBUTION=dists/${CODENAME}
 
 # define the file filters used to determine all releases and snapshots for version 2.x
-FILE_FILTER_PREFIX="pi4j-2(\.[0-9])+.deb"
+FILE_FILTER_PREFIX="pi4j-2(\.[0-9])+"
 RELEASE_FILE_FILTER="${FILE_FILTER_PREFIX}.deb"
 TESTING_FILE_FILTER="${FILE_FILTER_PREFIX}-SNAPSHOT.deb"
 
