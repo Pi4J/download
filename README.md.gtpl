@@ -29,28 +29,6 @@
 {{- end }}
 {{- end -}}
 
-{{- define "pi4j-os-single" -}}
-{{- $baseURL := "https://pi4j-download.com/" }}
-{{- $fileURL := printf "%s%s" $baseURL .name -}}
-[{{ .name }} ({{ template "file-size" .size }}, {{ .date }})]({{ $fileURL }})
-{{- end -}}
-
-{{- define "pi4j-os-list" -}}
-{{- $baseURL := "https://pi4j-download.com/" }}
-{{- range $index, $file := . }}
-{{- $fileURL := printf "%s%s" $baseURL $file.name }}
-<tr>
-    <td>{{ $file.name }}</td>
-    <td>{{ template "file-size" $file.size }}</td>
-    <td><a href="{{ $fileURL }}">{{ $fileURL }}</a></td>
-    <td>{{ $file.date }}</td>
-</tr>
-<tr>
-    <td colspan="4"><i>Image SHA256: <code>{{ $file.checksum }}</code></i></td>
-</tr>
-{{- end }}
-{{- end -}}
-
 # Pi4J Download Repository
 
 ![CI Status: pi4j-rebuild-repo](https://github.com/Pi4J/download/workflows/pi4j-rebuild-repo/badge.svg)
@@ -65,15 +43,11 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Latest Downloads
 - **Latest Release:** {{ template "pi4j-download-single" (index .pi4j_download.release_archives 0) }}
 - **Latest Snapshot:** {{ template "pi4j-download-single" (index .pi4j_download.snapshot_archives 0) }}
-- **Latest Pi4J-Basic-OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.basic 1) }}
-- **Latest Pi4J-CrowPi-OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.crowpi 1) }}
-- **Latest Pi4J-Picade-OS Image:** {{ template "pi4j-os-single" (index .pi4j_os.flavors.picade 1) }}
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
 - **[Snapshot Archives](#snapshot-archives)**: experimental Pi4J builds, might cause breakage
 - **[APT/PPA Repository](#aptppa-repository)**: install Pi4J via APT/PPA system package manager
-- **[Operating System Images](#operating-system-images)**: install custom OS images based on [Raspberry Pi OS](https://www.raspberrypi.com/software/) to kickstart your Pi4J project
 
 ---
 
@@ -180,58 +154,3 @@ sudo apt update
 sudo apt install pi4j</code></pre>
 
 </details>
-
----
-
-## Operating System Images
-Use these pre-built operating system images of the Pi4J project to kickstart your own 100% pure Java applications for specific Raspberry Pi setups.
-Please note that the given SHA256 checksums refer to the image file contained within the ZIP archive and not the ZIP archive itself.
-Visit the official [GitHub Repository](https://github.com/Pi4J/pi4j-os) to learn more.
-
-### Basic
-<table>
-<thead>
-    <tr>
-        <th>Name</th>
-        <th>Size</th>
-        <th>Download URL</th>
-        <th>Date</th>
-    </tr>
-</thead>
-<tbody>
-    {{- template "pi4j-os-list" .pi4j_os.flavors.basic }}
-</tbody>
-</table>
-
-### CrowPi
-<table>
-<thead>
-    <tr>
-        <th>Name</th>
-        <th>Size</th>
-        <th>Download URL</th>
-        <th>Date</th>
-    </tr>
-</thead>
-<tbody>
-    {{- template "pi4j-os-list" .pi4j_os.flavors.crowpi }}
-</tbody>
-</table>
-
-### Picade
-<table>
-<thead>
-    <tr>
-        <th>Name</th>
-        <th>Size</th>
-        <th>Download URL</th>
-        <th>Date</th>
-    </tr>
-</thead>
-<tbody>
-    {{- template "pi4j-os-list" .pi4j_os.flavors.picade }}
-</tbody>
-</table>
-
-
-Thanks to our sponsor [Karakun](https://karakun.com/) for hosting these images!
