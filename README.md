@@ -10,7 +10,7 @@ The download files are located on [github.com/Pi4J/download](https://github.com/
 For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j.com/).
 
 ## Latest Downloads
-- **Latest Release:** [pi4j-2.7.0.zip (2.47 MiB, 2024-10-03 10:17)](https://github.com/Pi4J/download/raw/main/pi4j-2.7.0.zip)
+- **Latest Release:** [pi4j-2.8.0.zip (2.65 MiB, 2025-01-28 12:42)](https://github.com/Pi4J/download/raw/main/pi4j-2.8.0.zip)
 - **Latest Snapshot:** [pi4j-2.8.0-SNAPSHOT.zip (2.66 MiB, 2025-01-28 12:27)](https://github.com/Pi4J/download/raw/main/pi4j-2.8.0-SNAPSHOT.zip)
 
 ## All Downloads
@@ -31,6 +31,12 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     </tr>
 </thead>
 <tbody>
+<tr>
+    <td nowrap>pi4j-2.8.0.zip</td>
+    <td nowrap>2.65 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-2.8.0.zip">https://github.com/Pi4J/download/raw/main/pi4j-2.8.0.zip</a></td>
+    <td nowrap>2025-01-28 12:42</td>
+</tr>
 <tr>
     <td nowrap>pi4j-2.7.0.zip</td>
     <td nowrap>2.47 MiB</td>
