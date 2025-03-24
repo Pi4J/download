@@ -11,7 +11,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 
 ## Latest Downloads
 - **Latest Release:** [pi4j-2.8.0.zip (2.65 MiB, 2025-01-28 12:42)](https://github.com/Pi4J/download/raw/main/pi4j-2.8.0.zip)
-- **Latest Snapshot:** [pi4j-3.0.0-SNAPSHOT.zip (2.67 MiB, 2025-03-23 09:35)](https://github.com/Pi4J/download/raw/main/pi4j-3.0.0-SNAPSHOT.zip)
+- **Latest Snapshot:** [pi4j-3.0.0-SNAPSHOT.zip (2.67 MiB, 2025-03-24 06:49)](https://github.com/Pi4J/download/raw/main/pi4j-3.0.0-SNAPSHOT.zip)
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
@@ -165,7 +165,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     <td nowrap>pi4j-3.0.0-SNAPSHOT.zip</td>
     <td nowrap>2.67 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.0.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.0.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2025-03-23 09:35</td>
+    <td nowrap>2025-03-24 06:49</td>
 </tr>
 <tr>
     <td nowrap>pi4j-2.8.0-SNAPSHOT.zip</td>
