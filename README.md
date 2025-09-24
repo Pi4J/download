@@ -10,8 +10,8 @@ The download files are located on [github.com/Pi4J/download](https://github.com/
 For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j.com/).
 
 ## Latest Downloads
-- **Latest Release:** [pi4j-3.0.1.zip (2.67 MiB, 2025-03-24 10:32)](https://github.com/Pi4J/download/raw/main/pi4j-3.0.1.zip)
-- **Latest Snapshot:** [pi4j-3.1.0-SNAPSHOT.zip (6.60 MiB, 2025-04-09 07:29)](https://github.com/Pi4J/download/raw/main/pi4j-3.1.0-SNAPSHOT.zip)
+- **Latest Release:** [pi4j-3.0.3.zip (6.61 MiB, 2025-09-23 14:16)](https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip)
+- **Latest Snapshot:** [pi4j-4.0.0-SNAPSHOT.zip (6.66 MiB, 2025-09-24 11:31)](https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip)
 
 ## All Downloads
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
@@ -31,6 +31,18 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     </tr>
 </thead>
 <tbody>
+<tr>
+    <td nowrap>pi4j-3.0.3.zip</td>
+    <td nowrap>6.61 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip</a></td>
+    <td nowrap>2025-09-23 14:16</td>
+</tr>
+<tr>
+    <td nowrap>pi4j-3.0.2.zip</td>
+    <td nowrap>6.59 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.0.2.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.0.2.zip</a></td>
+    <td nowrap>2025-05-20 11:19</td>
+</tr>
 <tr>
     <td nowrap>pi4j-3.0.1.zip</td>
     <td nowrap>2.67 MiB</td>
@@ -174,10 +186,16 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 </thead>
 <tbody>
 <tr>
+    <td nowrap>pi4j-4.0.0-SNAPSHOT.zip</td>
+    <td nowrap>6.66 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip</a></td>
+    <td nowrap>2025-09-24 11:31</td>
+</tr>
+<tr>
     <td nowrap>pi4j-3.1.0-SNAPSHOT.zip</td>
-    <td nowrap>6.60 MiB</td>
+    <td nowrap>6.62 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.1.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.1.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2025-04-09 07:29</td>
+    <td nowrap>2025-09-23 05:34</td>
 </tr>
 <tr>
     <td nowrap>pi4j-3.0.0-SNAPSHOT.zip</td>
