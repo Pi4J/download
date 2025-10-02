@@ -10,10 +10,12 @@ The download files are located on [github.com/Pi4J/download](https://github.com/
 For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j.com/).
 
 ## Latest Downloads
+
 - **Latest Release:** [pi4j-3.0.3.zip (6.61 MiB, 2025-09-23 14:16)](https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip)
-- **Latest Snapshot:** [pi4j-4.0.0-SNAPSHOT.zip (6.68 MiB, 2025-09-29 07:44)](https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip)
+- **Latest Snapshot:** [pi4j-4.0.0-SNAPSHOT.zip (6.72 MiB, 2025-10-02 20:14)](https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip)
 
 ## All Downloads
+
 - **[Release Archives](#release-archives)**: stable Pi4J builds for use in your own projects
 - **[Snapshot Archives](#snapshot-archives)**: experimental Pi4J builds, might cause breakage
 - **[APT/PPA Repository](#aptppa-repository)**: install Pi4J via APT/PPA system package manager
@@ -21,6 +23,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ---
 
 ## Release Archives
+
 <table>
 <thead>
     <tr>
@@ -175,6 +178,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ---
 
 ## Snapshot Archives
+
 <table>
 <thead>
     <tr>
@@ -187,9 +191,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 <tbody>
 <tr>
     <td nowrap>pi4j-4.0.0-SNAPSHOT.zip</td>
-    <td nowrap>6.68 MiB</td>
+    <td nowrap>6.72 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2025-09-29 07:44</td>
+    <td nowrap>2025-10-02 20:14</td>
 </tr>
 <tr>
     <td nowrap>pi4j-3.1.0-SNAPSHOT.zip</td>
@@ -333,7 +337,11 @@ To use a snapshot version of the library in your Maven project, add the followin
     <repository>
         <id>oss-snapshots-repo</id>
         <name>Sonatype OSS Maven Repository</name>
+        <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+        <!--
+        Snapshot versions created before 09/2025:
         <url>https://oss.sonatype.org/content/groups/public</url>
+        -->
         <releases>
             <enabled>false</enabled>
         </releases>
@@ -349,13 +357,16 @@ The list of available releases and snapshots can also be found on [sonatype.org]
 ---
 
 ## APT/PPA Repository
+
 ### Automated Installation
+
 The easiest way to get started with the Pi4J APT/PPA repository is to use our pre-built installation scripts:
 
 - **Pi4J Version 2:** `curl -sSL https://pi4j.com/v2/install | sudo bash`
 - **Pi4J Version 1:** `curl -sSL https://pi4j.com/install | sudo bash`
 
 ### Manual Installation
+
 Should you decide against running our installer script, you can also use these commands to setup the appropriate repository:
 
 <details>
