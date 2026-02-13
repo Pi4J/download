@@ -1,39 +1,39 @@
 Architectures: all
 Codename: v1
 Components: stable testing
-Date: Thu, 12 Feb 2026 21:31:20 +0000
+Date: Fri, 13 Feb 2026 06:49:15 +0000
 Label: The Pi4J Project
 Origin: https://pi4j.com/download
 Suite: v1
 MD5Sum:
- 53568a32a9657d4b523e5befb7ee6b03              165 Release
+ b008ed0160a2ab55430104c7545e05e3              165 Release
  cbcb54ab5bec45199b30d7e61055dc23             2626 stable/binary-all/Packages
- 3e91ab4df128d9d7dd7deafeb1738118              889 stable/binary-all/Packages.gz
- 7e5ced69bf2d082b7dcdf6ea167bc83e             1204 stable/binary-all/Release
+ 3199f32180246276f56da10274749b74              889 stable/binary-all/Packages.gz
+ 6e99de8deb1a9749ddb919a84d888656             1204 stable/binary-all/Release
  7d5b8bc41475361cc587cb96badbf4c5             2734 testing/binary-all/Packages
- 0d00d2034f267dd3caf6abe4106cabcb              895 testing/binary-all/Packages.gz
- b82988d80f92acc8ce91b65071bb84b5             1204 testing/binary-all/Release
+ 4f4640c8f1d4f68700dfd017b09aaea3              895 testing/binary-all/Packages.gz
+ 2f602ce0c2fdb09d8dd881a8ee0d72f9             1204 testing/binary-all/Release
 SHA1:
- c187c1590a6322e15adea8a06505d4e6e4b3ba41              165 Release
+ 46b0eb8f59d62d03a7712e3bbfa32248680d478c              165 Release
  a5ba96d0cb0d700c4e8cc49712f77a10e8d7471f             2626 stable/binary-all/Packages
- 82374fc2c74b147f39d6858bf72abcf30b99f667              889 stable/binary-all/Packages.gz
- 1e4a929841baa0524493bdac8907216ae8fd9af5             1204 stable/binary-all/Release
+ 203a6c00072a4c0d02bc391fe94e2113f1b62745              889 stable/binary-all/Packages.gz
+ 822cde923fb77cb2309d3b14b16938e6de38f927             1204 stable/binary-all/Release
  be1c830693920fc17cd427303a137ba9a9f98b16             2734 testing/binary-all/Packages
- df8f107d33fd86ebeb6362df1cc9335088cd8b5d              895 testing/binary-all/Packages.gz
- 425c77b642dee18ab2b34faaa82712dc40d52854             1204 testing/binary-all/Release
+ 1200704e681efa709f23853caa461ca67fa19a28              895 testing/binary-all/Packages.gz
+ 43d39cc837c19672eb783802b9d855610d9a8b27             1204 testing/binary-all/Release
 SHA256:
- 9f12c2de51e45377cf1c7ec902672019e0e878e7aee754a389f2fb1d7de433fb              165 Release
+ 73ad891a6896b2c126ef4eccc62452b5ee442af9ad80e09507fda2518165e214              165 Release
  53f9e32483834cdc5b610072928d41e32351ea1b2d56a07053aac25b47967ab7             2626 stable/binary-all/Packages
- cc8359bcb4e2acde1e79ffa33f551d891dae191dcfcea6638af92cd0f4d862a8              889 stable/binary-all/Packages.gz
- 18747609126e1cd5b5a5199239c11f8fdab1ef5add077c2c1a7a9af1301f762e             1204 stable/binary-all/Release
+ 627b65dcb065a3de28cb2ac392ef66bdb4729244d321cb133afb5658b2f5b607              889 stable/binary-all/Packages.gz
+ 2e3cf0a09666fcb86e76f45ed3a56bd71aeb13b970aa688fe532feef8c9d649e             1204 stable/binary-all/Release
  21d61b6209d77faa413a9db5c13cc17d9907cc322bbad635aefe812c08b6fa08             2734 testing/binary-all/Packages
- 6d7d443ae00d6c8ab1a68543861e698ee464d121754889262ed06084f02af461              895 testing/binary-all/Packages.gz
- 8b1eaaa75d41d95aaedc96e4bcb6afe324aa6bb9c203c9260ad325b27a140986             1204 testing/binary-all/Release
+ c672ba536e023bc220111308f057f83fa8d6652e6a95a21e56a7fff4724fd418              895 testing/binary-all/Packages.gz
+ 024107b97dd58f578d93e0332ef92cf2da2da054192d215554fcf1c135f54c38             1204 testing/binary-all/Release
 SHA512:
- 23c047b8dbe7fc45c794d0be222cce571de1ebe5f4ab38c1dc5319d24fce408a2141650d93a383d5ca3ff952c8bf287a3cd54b95d8a54b26e2a9160c590e5649              165 Release
+ 5c9644ba1ca665431a8201d32c5bf3ec2db1049d25b235cb4215f7499bd252506d96c0b334ca0d0dbce65febab23b418ab41c8412ab23f7f39780a4e4ec721c0              165 Release
  6d263d0144680654c3a9a1507f2c19ea61a2db76cd8595cf8df44f285b718fcbece7d98c14365bb76ca51a65c9c17486e99f116243f166e5a706a4d95fc14eb6             2626 stable/binary-all/Packages
- ef6904a52445c7c5f9134e2e21ffe0071148b00798e0e5b3029a301aec2772ef34befdc6cec389af94139f47225c30d52f99469ec1140173cdefa04a7aeb47b2              889 stable/binary-all/Packages.gz
- 8ad398b420ef3f8689dba9dc9e2b805bff6b6095fe2b32ba69c4b0ce469b2fe65a02fe539a3c29576e4787ecf636cc9e84a4760acde1b9a13fcf1bddf3611f75             1204 stable/binary-all/Release
+ 9d8a8f4e7a74f9a9b53559ba1fe3a3635e232bc0bcec8ca50677c47f695cd7f4c032c9f3c911fb14dadece04891a82ce640a3f16974f7667f3ed1c2f2b41ab09              889 stable/binary-all/Packages.gz
+ d7f9422e13619f7243a8035027ac3954cac143c4d2bf11964de6ed37370ba183490c167d52c76741d7f46900c439ed76b57dba504bb5e9c36f912548234ec359             1204 stable/binary-all/Release
  2f9097cf4d4bccc59145d504ec0e69196d6c950fde7c3ff3c4533c6f1852a3d3e1c303ee8b33d80464ba5ad5e8fc51e7ea6e23f62ecdacbc8932b3483616ffc3             2734 testing/binary-all/Packages
- 4fac622066a3dc44d13e05e01d42228a8885721482318ce1053c2a18c1a0559f13b1a0bc662df58eba7fa4e7f45c86ad82c5a628cda7454c9ec5e4e0d6117146              895 testing/binary-all/Packages.gz
- fbcf7987b151251165f291227b4f404a2cf31306811ba8045c0a8e308702acf42513f454c22d3ec1183c086918c6f7f8cc70ac01f0154c3f735312a9ca823ad7             1204 testing/binary-all/Release
+ 7c574f7ef8d0b3504cd679332d9ffeeef35fb5faf251753726382a2a131dfaa8ad27af97c3f8728b6df74f3fca14cc7079b251ac51ec653e6e2d7a2b913503ce              895 testing/binary-all/Packages.gz
+ 028a8f6c803f44db1ca5f7b14cce7166907fdab3be2e09129e434bf209ee063b46ef17b212dd28c7cea74f3ee00ad661ef615b2e286734e2eb6fa2847087c38d             1204 testing/binary-all/Release

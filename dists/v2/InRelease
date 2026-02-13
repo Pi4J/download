@@ -4,50 +4,50 @@ Hash: SHA512
 Architectures: all
 Codename: v2
 Components: stable testing
-Date: Thu, 12 Feb 2026 21:31:22 +0000
+Date: Fri, 13 Feb 2026 06:49:17 +0000
 Label: The Pi4J Project
 Origin: https://pi4j.com/download
 Suite: v2
 MD5Sum:
- 52b659e32ee315349e7dd3cecd71a486              165 Release
+ 0998e758651dc2174852b79fb5baf82c              165 Release
  c4a0e9a9e9b17eda731fefee9eed4754             5304 stable/binary-all/Packages
- 10a94bb1e2841440247dff5c6062caa5             1511 stable/binary-all/Packages.gz
- 9419aec980242fc227f2a1757650c883             1204 stable/binary-all/Release
+ 66b9d01d378c3932a8116e0cbee61b06             1511 stable/binary-all/Packages.gz
+ aa0b419ef0b9e52867de5b0894ceab2e             1204 stable/binary-all/Release
  10211edcaf01398a1a99af0224d0a177             5980 testing/binary-all/Packages
- 2b15cb3d76a823d642307fd4d85c9501             1638 testing/binary-all/Packages.gz
- 22f85d32a52f240aa9f0883096cd7525             1204 testing/binary-all/Release
+ bd1ddce5d594687301a482a06b1df907             1638 testing/binary-all/Packages.gz
+ 803cc16b33fa980db4e6a641ec425170             1204 testing/binary-all/Release
 SHA1:
- 7f3760b421ae441608f5178715a09f516ea06222              165 Release
+ 06e98b7cc78b47792b342fad4b5018992f3f48d0              165 Release
  4acb76ff28695dc67688ffae818f16e387e8f49b             5304 stable/binary-all/Packages
- 8f7db5864c03fd0cd329e2a2a9fe042262393c00             1511 stable/binary-all/Packages.gz
- 7f94114286b1a593e614dfbac3527e7aedb699f9             1204 stable/binary-all/Release
+ 522ccb456ac469b698e8028196610be2671ec7d6             1511 stable/binary-all/Packages.gz
+ 3e92f91f3998df78a41d4c890e24c9295d3e4822             1204 stable/binary-all/Release
  cd0ed867edf310be11aaf37d887f7c231ebdf9bf             5980 testing/binary-all/Packages
- 5c9a0751e3f3336a43c31bcd2badec144a206dcd             1638 testing/binary-all/Packages.gz
- 8b0f2b3865a9f820d02102591f47d82af881d228             1204 testing/binary-all/Release
+ 501f2c1ba5e37ee2022e7566228992ac705d6a22             1638 testing/binary-all/Packages.gz
+ 67ce1c76ad36cdca014b53e796b03812e03ee580             1204 testing/binary-all/Release
 SHA256:
- b2a7eb6012679aff11453ca02bd85f5a773d7900e39cab5208e9afe2ba3f8fe4              165 Release
+ ff0a30353c3e3d589f25c664e23d285a368e0613f93d847f375a8dcab0653dc0              165 Release
  5ef17142c74a52126ad9f1e6e2dbd12af1dc3efb81c51f9de4362c034d17b428             5304 stable/binary-all/Packages
- a71d2cd0e7dd28df44b46ce0782afdb831d92d93efc3ef73d78193c99027ef45             1511 stable/binary-all/Packages.gz
- 609fd10c42015d867aef740b3c35dd829f81696bf288d392cede0183b915b97b             1204 stable/binary-all/Release
+ 150ff77987246845d8629fb9f30b7911b563232566e80dcceecb77b23387c9a4             1511 stable/binary-all/Packages.gz
+ 74527b3dd00a3bb119a52accb3ef0ba5e4fe00610e2dc39bed57b65e472f6850             1204 stable/binary-all/Release
  631d7532cc4dba50cb12efb43c8e8cbec9f6595a6fdd229cfbb33ae2ee3e703c             5980 testing/binary-all/Packages
- 7472d5a94e78e80255037d11674d262d43ef24cc1edddf02fcd623a1918e1f56             1638 testing/binary-all/Packages.gz
- 3fcd5c4f4b81cc01c5434856d29073a47e4d19f347a14ae76c40b4a0874d61fa             1204 testing/binary-all/Release
+ 6dd36b95ffcf1ff9f72a147293631f7fa72950b9b109f2bf802c7b9b13d5afc6             1638 testing/binary-all/Packages.gz
+ 932258d3960cd8d496d4e043519b6e6aac21ec8aed4d5d1156bc3a8e479af98f             1204 testing/binary-all/Release
 SHA512:
- fbbc145127c08bd0e8d1880a8dec5c512f27f0f72826f049d6cfcad98f54561c2c9bad693ed9068ee34fd526003fb9f2edf09f8201562255f86aa8ae6d08df0f              165 Release
+ 5bfed7368e7c7d24e5c460301b83130b5f797070a9920230ba73dc26aa0c8809b7c5e922f982e9e0331284f799f3daf94b961d82d62111864fba15870bc916da              165 Release
  89382e97278c2a8961761a733e55a831841d78b12afd8659941e901701ef70718c595bd4a8f4a149605276241ec572c9a7fee62521ca2c16e1132142a3d383a7             5304 stable/binary-all/Packages
- dd8e8659abae6096ac51786fab15f0c203676520597f3981fe447027af81819bd8c2acdfe35ed7390f644438c49c348f7cfd3deec86d2ab58e5a3111b1365ce8             1511 stable/binary-all/Packages.gz
- 743b1ecb9f66c9c636b12edb49bca6c504336246951c81f6e1bc6bd0d7ff8f064649c511612c7f25e5587233d4fe1981104f3ff5ecd329706ad55871f024d44c             1204 stable/binary-all/Release
+ 6ac22c1e977ea07174eb4d505e42bc75024b6e5849313a93fba2e5f6b38b1ff59a825b2d8e02088b6babf191c5eb1273f153b61dc25018dc64d5e74233c8eaf1             1511 stable/binary-all/Packages.gz
+ 660bf695109c51d5259ec72337f3995ab90a5323c6b5bf5a3991deb3325cafcea5642ec5dd70dc8b60a5cb4ec269f1170e79d78cd1c4b892f1d4d7c1daf452a5             1204 stable/binary-all/Release
  4dea0633fdc002d8d5407f903bb45d4388c431fe90b97dea1a267d3d77665fd353282baae60409c5d6add6d1de091f6bc33b4c8a31831d7142f443c368a8b567             5980 testing/binary-all/Packages
- fc3cdc7531833979e7101bd5c9af5f512a9262103496eb4f1d4d6edb7f842a5efc7719deeb4fc52101a7f100cfd44ae8c8b272b5d428d16419473031743be721             1638 testing/binary-all/Packages.gz
- 832508f8912c029c64fef394828efad785cfe04f30a16b11661e2a3ad941dd6bd2024017ec0a36d23fa10c916edabb57e977e3e47ebbb7cc41b39bce6e620542             1204 testing/binary-all/Release
+ 3ac28da52556087c9d4b61751f122d66a40513a1781e6308473b8f9688242dfe388b143f73b1c1b6dab4894a68fee48a61c2bfc3e14a5fcde09c1573704f3f2a             1638 testing/binary-all/Packages.gz
+ 1f5a4890553ef521f1ecb801b24072f67fe1b5c1d795f9d307b408cdb16f5843f7bbd5d3baed7582b95666fbe6e92d4432df18682f20e8e75003018ec26d4d78             1204 testing/binary-all/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQFCBAEBCgAsFiEEIKegvFheN6p88UpzVzPPU0nq/+YFAmmORqoOHHRlYW1AcGk0
-ai5jb20ACgkQVzPPU0nq/+bQnwf9Hrl9DelccN+Bb7wq3aXGLqnIgbIYxLUe+5Lf
-3YbenH0hH6yQWchlV4HcWgEIsPE4BUmoRqjbzQ9dwoZltx8i6sY2GEBPk1VHhvO0
-a4EJvOKZRBSIE5zM4wMy9FblvVO7fG95yjtdclspeTBhQJCi3gFL5bfd2LiaWQ1t
-ACiCKUUYxFnxQeIbVQsVlFeQaGCCEljsuIDE9CLK7l/eSYbpmvJcOWIEhTmlSn1E
-7Ltcv3hxCtNDHkR0yCLUd4eBOCPh+yz8zvdAvAgNdftchiTNeCk/+leG9VlP7oBW
-XiKxcra0RxV4EGnNt3kVF1dSJGDZer+fex3Zqa0Z9OovRwBAtw==
-=Rm8f
+iQFBBAEBCgAsFiEEIKegvFheN6p88UpzVzPPU0nq/+YFAmmOyW0OHHRlYW1AcGk0
+ai5jb20ACgkQVzPPU0nq/+Z/Uwf2LOYi8IGQsgq+cbqVctaWNd3cG0RgzeBtrFhP
+zilGzPmWCQpBTxWquj10WHWldG+p3gfoNNt3Gh3D2S/JUfgoNYPf4pqbgfkzOHuP
+Oyk4zH/tfpU8DtLeas9LEwtgjgeonS6alm2vME+/bXo4sL1ohFJV8eDmeTq5pMTn
+rwluOsHjHxzvygAWmPoyL0joyyjvMusRJ8wT1Qx5L0+z73aQ1YjEbgHAp8xrgpBQ
+BK7Qkgq5f86ZlPtqfT+X4g0LsyBAOYjcqUSJmuHkYAkM0lNTYRYc6taIZdKEGGlL
+Cw+OaVsOVlQX8mAVgjp9LcDJGy7RdvBvx0PfoioGAABdMabb
+=cAKU
 -----END PGP SIGNATURE-----
