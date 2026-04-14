@@ -203,9 +203,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 </tr>
 <tr>
     <td nowrap>pi4j-4.0.0-SNAPSHOT.zip</td>
-    <td nowrap>6.71 MiB</td>
+    <td nowrap>6.85 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2026-02-20 08:56</td>
+    <td nowrap>2026-04-14 07:41</td>
 </tr>
 <tr>
     <td nowrap>pi4j-3.1.0-SNAPSHOT.zip</td>
