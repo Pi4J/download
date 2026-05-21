@@ -47,6 +47,12 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     <td nowrap>2026-02-20 09:56</td>
 </tr>
 <tr>
+    <td nowrap>pi4j-3.0.4.zip</td>
+    <td nowrap>6.65 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.0.4.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.0.4.zip</a></td>
+    <td nowrap>2026-05-21 05:46</td>
+</tr>
+<tr>
     <td nowrap>pi4j-3.0.3.zip</td>
     <td nowrap>6.61 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip</a></td>
