@@ -11,8 +11,8 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 
 ## Latest Downloads
 
-- **Latest Release:** [pi4j-3.0.3.zip (6.61 MiB, 2025-09-23 14:16)](https://github.com/Pi4J/download/raw/main/pi4j-3.0.3.zip)
-- **Latest Snapshot:** [pi4j-4.0.0-SNAPSHOT.zip (6.71 MiB, 2026-01-24 22:10)](https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip)
+- **Latest Release:** [pi4j-4.0.1.zip (6.85 MiB, 2026-04-14 07:45)](https://github.com/Pi4J/download/raw/main/pi4j-4.0.1.zip)
+- **Latest Snapshot:** [pi4j-4.1.0-SNAPSHOT.zip (6.86 MiB, 2026-06-01 06:41)](https://github.com/Pi4J/download/raw/main/pi4j-4.1.0-SNAPSHOT.zip)
 
 ## All Downloads
 
@@ -34,6 +34,24 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
     </tr>
 </thead>
 <tbody>
+<tr>
+    <td nowrap>pi4j-4.0.1.zip</td>
+    <td nowrap>6.85 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.0.1.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.0.1.zip</a></td>
+    <td nowrap>2026-04-14 07:45</td>
+</tr>
+<tr>
+    <td nowrap>pi4j-4.0.0.zip</td>
+    <td nowrap>6.70 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.0.0.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.0.0.zip</a></td>
+    <td nowrap>2026-02-20 09:56</td>
+</tr>
+<tr>
+    <td nowrap>pi4j-3.0.4.zip</td>
+    <td nowrap>6.65 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-3.0.4.zip">https://github.com/Pi4J/download/raw/main/pi4j-3.0.4.zip</a></td>
+    <td nowrap>2026-05-21 05:46</td>
+</tr>
 <tr>
     <td nowrap>pi4j-3.0.3.zip</td>
     <td nowrap>6.61 MiB</td>
@@ -190,10 +208,16 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 </thead>
 <tbody>
 <tr>
+    <td nowrap>pi4j-4.1.0-SNAPSHOT.zip</td>
+    <td nowrap>6.86 MiB</td>
+    <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.1.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.1.0-SNAPSHOT.zip</a></td>
+    <td nowrap>2026-06-01 06:41</td>
+</tr>
+<tr>
     <td nowrap>pi4j-4.0.0-SNAPSHOT.zip</td>
-    <td nowrap>6.71 MiB</td>
+    <td nowrap>6.85 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-4.0.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2026-01-24 22:10</td>
+    <td nowrap>2026-04-14 07:41</td>
 </tr>
 <tr>
     <td nowrap>pi4j-3.1.0-SNAPSHOT.zip</td>
@@ -372,7 +396,7 @@ Should you decide against running our installer script, you can also use these c
 <details>
 <summary><b>Pi4J Version 2 (stable)</b></summary>
 
-<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO - https://pi4j.com/pi4j.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pi4j.gpg
 echo 'deb [arch=all] https://pi4j.com/download v2 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
 sudo apt install pi4j</code></pre>
@@ -382,7 +406,7 @@ sudo apt install pi4j</code></pre>
 <details>
 <summary><b>Pi4J Version 2 (testing)</b></summary>
 
-<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO - https://pi4j.com/pi4j.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pi4j.gpg
 echo 'deb [arch=all] https://pi4j.com/download v2 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
 sudo apt install pi4j</code></pre>
@@ -392,7 +416,7 @@ sudo apt install pi4j</code></pre>
 <details>
 <summary><b>Pi4J Version 1 (stable)</b></summary>
 
-<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO - https://pi4j.com/pi4j.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pi4j.gpg
 echo 'deb [arch=all] https://pi4j.com/download v1 stable' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
 sudo apt install pi4j</code></pre>
@@ -402,7 +426,7 @@ sudo apt install pi4j</code></pre>
 <details>
 <summary><b>Pi4J Version 1 (testing)</b></summary>
 
-<pre><code>wget -qO- https://pi4j.com/pi4j.gpg | sudo apt-key add -
+<pre><code>wget -qO - https://pi4j.com/pi4j.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pi4j.gpg
 echo 'deb [arch=all] https://pi4j.com/download v1 testing' | sudo tee /etc/apt/sources.list.d/pi4j.list
 sudo apt update
 sudo apt install pi4j</code></pre>
