@@ -68,4 +68,11 @@ jobs:
           git status
           git add README.md
           git commit -am "[AUTO] rebuild dynamic readme" || true
+          # Another workflow may push to main between checkout and push,
+          # so rebase onto the latest remote and retry the push a few times.
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected (attempt $i), rebasing on latest origin/main..."
+            git pull --rebase origin main
+          done
           git push
