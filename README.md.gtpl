@@ -109,5 +109,5 @@ To use a snapshot version of the library in your Maven project, add the followin
 </repositories>
 ```
 
-The list of available releases and snapshots can also be found on [sonatype.org](https://oss.sonatype.org/#nexus-search;quick~pi4j-core).
+The list of available releases and snapshots can also be found on [Maven Central](https://central.sonatype.com/artifact/com.pi4j/pi4j-core).
 
