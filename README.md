@@ -12,7 +12,7 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 ## Latest Downloads
 
 - **Latest Release:** [pi4j-4.0.2.zip (6.85 MiB, 2026-06-08 10:03)](https://github.com/Pi4J/download/raw/main/pi4j-4.0.2.zip)
-- **Latest Snapshot:** [pi4j-5.0.0-SNAPSHOT.zip (19.21 MiB, 2026-10-03 07:16)](https://github.com/Pi4J/download/raw/main/pi4j-5.0.0-SNAPSHOT.zip)
+- **Latest Snapshot:** [pi4j-5.0.0-SNAPSHOT.zip (19.20 MiB, 2026-10-03 08:10)](https://github.com/Pi4J/download/raw/main/pi4j-5.0.0-SNAPSHOT.zip)
 
 ## All Downloads
 
@@ -215,9 +215,9 @@ For more information about the Pi4J Project, please see: [pi4j.com](https://pi4j
 <tbody>
 <tr>
     <td nowrap>pi4j-5.0.0-SNAPSHOT.zip</td>
-    <td nowrap>19.21 MiB</td>
+    <td nowrap>19.20 MiB</td>
     <td><a href="https://github.com/Pi4J/download/raw/main/pi4j-5.0.0-SNAPSHOT.zip">https://github.com/Pi4J/download/raw/main/pi4j-5.0.0-SNAPSHOT.zip</a></td>
-    <td nowrap>2026-10-03 07:16</td>
+    <td nowrap>2026-10-03 08:10</td>
 </tr>
 <tr>
     <td nowrap>pi4j-4.1.0-SNAPSHOT.zip</td>
